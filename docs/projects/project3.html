@@ -1,0 +1,352 @@
+ 
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+      <meta http-equiv="refresh" content="0; url=https://kerchunkleknoughts.github.io/dogwithablog.gov/projects/project02.html">
+
+
+        
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+        
+        <style>
+
+body {
+          background-color: rgb(207, 240, 230);
+   
+        }
+
+
+    </style>
+
+
+
+
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ 
+
+
+
+    <div class="headstyle">
+    <h4>
+        Super duper doggy blaster the video game
+    </h4>
+</div>
+
+<hr>
+
+
+
+<div class="headstyle">
+
+
+
+
+
+    <header>
+      <div>
+
+
+
+    
+        <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/index.html">about |</a>
+        <a href="../index.html">home |</a>
+        <a href="../projects.html">creative/projects |</a> 
+        <a href="../blog.html">blog |</a> 
+        <a href="../misc.html">misc |</a> 
+        <a href="../guestbook.html">get updates |</a> 
+    
+
+
+
+      </div>
+
+    </header>
+
+
+  </div>
+
+      <div class="spacer">
+
+        </div>
+
+       
+        
+
+<br><br>
+
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+    <div>
+        
+        <img src="../resources/images/8bit.jpeg" class="indicator5"> </img>
+
+      </div>
+
+
+</div>
+
+<div class="betterparentboxcenter">
+    <p class="betterp">
+     project project project, mmm project
+
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <div class="parentboxcenter">
+
+    <div class="headystyle">
+    
+  
+      
+
+       <button onclick="gotoprevindex(0)">Prev post</button>
+       <button onclick="gotonextindex(0)">Next post</button>
+
+       <button onclick="randomdream()">random post</button>
+       <button onclick="location.href='../projects.html'">post library</button>
+
+
+   
+   </div>
+   </div>
+   
+
+
+
+<br><br><br><br>
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="../feed.xml" class="childtextboxpadded">
+        <img src="../resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+
+</div>
+
+    </footer>
+
+
+
+    
+
+
+    
+
+</div>
+
+
+
+
+
+ 
+ 
+
+
+ 
+<script>
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        
+        randodreamaudio()
+    
+        
+
+
+
+
+        let audio = document.getElementById("bgm");
+        setTimeout(() => {
+            
+
+            var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        }, 1500); // Delay autoplay
+
+    });
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+        let musicenabled=1;
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        //console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+               var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+        audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("eventlistener removed :(");
+          let audio = document.getElementById("postmusicclick");
+
+          if(value==1){
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+          }
+          
+        }
+
+
+        }else{
+
+          let audio = document.getElementById("postmusicclick");
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+
+
+            console.log("post music click");
+
+          
+
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+<script src="../resources/progresources/js/script.js"></script>  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+</body>
+</html>

@@ -1,0 +1,612 @@
+ 
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+
+        
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+        
+        <style>
+
+body {
+          background-color: rgb(207, 240, 230);
+   
+        }
+
+
+    </style>
+
+
+
+
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ 
+
+
+
+    <div class="headstyle">
+    <h4>
+        Personal auto hotkey script showcase 2
+    </h4>
+</div>
+
+<hr>
+
+
+
+<div class="headstyle">
+
+
+
+
+
+    <header>
+      <div>
+
+
+
+    
+        <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/index.html">about |</a>
+        <a href="../index.html">home |</a>
+        <a href="../projects.html">creative/projects |</a> 
+        <a href="../blog.html">blog |</a> 
+        <a href="../misc.html">misc |</a> 
+        <a href="../guestbook.html">get updates |</a> 
+    
+
+
+
+      </div>
+
+    </header>
+
+
+  </div>
+
+      <div class="spacer">
+
+        </div>
+
+       
+
+<hr>
+<br><br>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> intro</h1>
+<hr>
+</div>
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+    This is the second entry in a multi part series where
+    I dive into the auto hot key script that I use 
+    on all of my computers to enhance its core 
+    functionality! I believe that since computers 
+    are involved in so many parts of our lives, 
+    it is very important to become as proficient 
+    at using them as possible. 
+
+    so lets begin!
+  </p>
+</div>
+
+
+<br><br>
+
+<div class="parentboxcenter">
+  <hr>
+<h3> Switch ahk scripts </h3>
+<hr>
+</div>
+
+
+<pre class="textcenter">
+  <code>
+^!z::
+Run C:\interuserstorage\ahkstuff\st1.ahk
+ExitApp
+  </code>
+</pre>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        This one of my favorite commands, with this I am able to
+        start a different ahkscript and exit the currently running 
+        ahk script. This is useful for switching what your base 
+        commands do and effectively opens up an unlimited 
+        number of actions that can be performed with ahk!
+
+        For instance, you could create an ahk profile 
+        for different apps, which talor your ahk 
+        functionality to the app in question. 
+
+  </p>
+</div>
+
+
+
+
+
+
+<div class="parentboxcenter">
+  <hr>
+<h3> extended logi options plus functionality </h3>
+<hr>
+</div>
+
+
+<pre class="textcenter">
+  <code>
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SCROLL BUTTON
+
+
+#SingleInstance Force
+
+
+;@@@@@@@@@@@@DOWNSTROKE
+; windows cut functionality
+^+F1::  ; Ctrl + Shift + F1
+    Sleep, 100
+    Send, ^x                              ; Sends Ctrl + X
+return
+
+;@@@@@@@@@@@@RIGHT
+; PRESS ENTER!
+^+F2::  ; Ctrl + Shift + F2
+    Sleep, 100
+    SendInput, {Enter}
+return
+
+;@@@@@@@@@@@@LEFT
+; ALT tab 
+^+F3::  ; Ctrl + Shift + F3
+    Sleep, 100
+    Send, {Alt down}{Tab}{Alt up}       ; Alt + Tab
+    Sleep, 200
+return
+
+;@@@@@@@@@@@@UP
+; new window!
+^+F4::  ; Ctrl + Shift + F4
+    Sleep, 100
+    Send, ^n                               ; Ctrl + N
+return
+
+;@@@@@@@@@@@@PRESS
+; screen snip : )
+^+F5::  ; Ctrl + Shift + F5
+    Sleep, 100
+    Send, #+s  
+
+
+  </code>
+</pre>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        Another favorite of mine, 
+        I use this to synergize ahk with the 
+        mouse configuration software logi options 
+        plus. In logi options plus you are given 
+        a set number of macros each button can perform. 
+
+        However, all of these basic actions can be emulated 
+        via ahk. By setting the buttons to call the commands
+        defined in ahk, this allows profiles as talked about 
+        in the previous snippet to be extended to any logi 
+        mouse. Currently, I have a button on my mouse which 
+        switches ahk profiles, so that instead of being 
+        limited to the limited number of actions allowed 
+        by logi options plus, I can vastly increase 
+        the number of actions allowed by the mouse software. 
+
+        Whats more, since all of my computers use the same
+        ahk script, if I remote into a different computer,
+        all commands that I input from the host computer 
+        will transfer over to the remote computer. This 
+        effectly prevents any sort of issues with commands 
+        not being executed on other computers and ensures 
+        the same functionality from device to device. 
+
+
+
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<div class="parentboxcenter">
+  <hr>
+<h3> Ensuring your ahk script starts on pc start up </h3>
+<hr>
+</div>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        Now with everything I have talked about so far, 
+        all of the gains in efficiency are undercut by 
+        the fact that you need to run the ahk script 
+        every time you start your computer. I am going 
+        to show you how to configure the scheduler 
+        in order to make the ahk run automatically.
+
+  </p>
+</div>
+
+
+<div class="parentboxcenter">
+  <hr>
+<h3> scheduler intro </h3>
+<hr>
+</div>
+
+
+
+<div class="parentbox">
+
+
+<img src="../resources/images/schedule.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+          The first thing you want to do is 
+          to open up the search bar and type in task scheduler. It should open 
+          up an image that looks like the image above. 
+
+  </p>
+</div>
+
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action1.png" style="height:400px ; width: 400px;" > </img>
+
+</div>
+
+
+<div class="textcenter">
+  <p class="betterp">
+         Then go here, and hit create basic task. Afterwards, go through the 
+         setup and configure it like how I have my task configured below. 
+         Of course you will need to change the path to be relevant to
+         how you have your AHK scripts set up. I like to have my scripts in 
+         a path located directly in C:\ since that allows access to my 
+         AHK scripts if I am logged into a different user account.
+
+  </p>
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action2.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action3.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action4.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action5.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action6.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+
+
+
+
+
+        
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <div class="parentboxcenter">
+
+    <div class="headystyle">
+    
+  
+      
+
+       <button onclick="gotoprevindex(2)">Prev post</button>
+       <button onclick="gotonextindex(2)">Next post</button>
+
+       <button onclick="randomdream()">random post</button>
+       <button onclick="location.href='../blog.html'">post library</button>
+
+
+   
+   </div>
+   </div>
+   
+
+
+
+<br><br><br><br>
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="../feed.xml" class="childtextboxpadded">
+        <img src="../resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+
+</div>
+
+    </footer>
+
+
+
+    
+
+
+    
+
+</div>
+
+
+
+
+
+ 
+ 
+
+
+ 
+<script>
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        
+        randodreamaudio()
+    
+        
+
+
+
+
+        let audio = document.getElementById("bgm");
+        setTimeout(() => {
+            
+
+            var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        }, 1500); // Delay autoplay
+
+    });
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+        let musicenabled=1;
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        //console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+               var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+        audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("eventlistener removed :(");
+          let audio = document.getElementById("postmusicclick");
+
+          if(value==1){
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+          }
+          
+        }
+
+
+        }else{
+
+          let audio = document.getElementById("postmusicclick");
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+
+
+            console.log("post music click");
+
+          
+
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+<script src="../resources/progresources/js/bscript.js"></script>  
+
+
+
+
+
+
+
+
+ 
+
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+---
+permalink: /feed.xml
+eleventyImport:
+  collections: ["posts"]
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Kerchunkle blog v2</title>
+  <description>A little bloggy </description>
+  <link></link>
+  <lastBuildDate>Fri, 21 Mar 2025 12:45:46 GMT</lastBuildDate>
+  <ttl>10080</ttl>
+
+
+  <!-- To generate timestamps under pubdate : https://timestampgenerator.com/1742077903/+00:00 -->
+  <!-- These are called unix time stamps-->
+  <!-- quick rss refresher: https://caffeineandlasers.neocities.org/blogs/automatingYourRSS -->
+    <!-- Dont forget to remake the counter on ur website ever so often for semi accurate counting -->
+    <!-- https://blogtrottr.com/-->
+
+<!-- This app should update other services when rss feed is updated. -->
+    <!-- https://ifttt.com/activity/applet/BGnuFHxv-->
+   <!-- https://ifttt.com/activity/applet/BGnuFHxv-->
+
+<!--https://www.11ty.dev/docs/collections/ -->
+
+
+
+<!-- 11ty AUTOMATED PAGE UPDATES, THIS SHOULD BE CONTENT ONLY! -->
+  {% for post in collections.posts %}
+  <item>
+    <title>{{ post.data.title }}</title>
+    <description>{{ post.data.description }}
+    </description>
+    <link></link>
+    <guid></guid>
+    <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+  </item>
+
+  {% endfor %}
+
+
+
+
+</channel>
+</rss>

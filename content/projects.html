@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+     {% include "partials/defstyle.njk" %}
+
+     <link rel="stylesheet" href="./resources/progresources/globalcss.css">
+
+</head>
+
+
+<body>
+
+
+    <div class="maindiv">
+    
+
+  {% include "partials/header.njk" %}
+       
+        
+
+<br><br>
+
+
+
+
+
+<div>
+
+    <h2 class="lefttext">Latest posts:</h2>
+</div>
+
+
+
+  {% assign indi = -1 %}
+  
+
+ 
+
+
+
+
+<div class="scrollme">
+    <ul>
+  
+
+  {% for post in collections.projects reversed %}
+
+  {% assign indi = indi | plus: 1 %}
+
+  
+
+ 
+
+   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
+
+
+   
+
+    
+
+
+ 
+
+
+
+
+
+  {% endfor %}
+
+
+  </ul>
+
+</div>
+
+
+
+
+
+  <br><br>
+<hr style="border-top: dotted 10px;" />
+
+<div>
+
+    <h2 class="lefttext">Links:</h2>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/music.html">music</a></li> <br>
+        </ul>
+
+          <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">art</a></li> <br>
+        </ul>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
