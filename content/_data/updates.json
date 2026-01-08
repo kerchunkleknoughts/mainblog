@@ -1,0 +1,43 @@
+
+[
+
+
+{
+  "title": "Added Photos page",
+  "description": "Added a page to put random photos from the depths of my hard-drive",
+  "url": "/photos.html",
+  "image": "https://media1.tenor.com/m/R5IECfIf34YAAAAd/fish-spinning.gif",
+  "date": "Fri, 18 Apr 25 16:53:30 +0000"
+},
+
+
+  
+
+
+{
+  "title": "Major art page refactor + MORE ART YIPPIE",
+  "description": "Yeah it should be way easier to add new artwork to my website now, 11ty rocks dude.",
+  "url": "/drawings.html",
+  "image": "https://media1.tenor.com/m/R5IECfIf34YAAAAd/fish-spinning.gif",
+  "date": "Fri, 18 Jul 25 16:53:30 +0000"
+},
+
+
+
+{
+  "title": "KITTY LAND GAME MAJOR UPDATES",
+  "description": "Make some pretty decent progress with the game, current features are ::: 1 three different npcs+npc houses 2 custom voice lines 3 need system/basic pathfinding. Its still a WIP but feel free to come on down and give it a play! ",
+  "url": "/projects/project01.html",
+  "image": "https://media1.tenor.com/m/R5IECfIf34YAAAAd/fish-spinning.gif",
+  "date": "Thu, 28 Aug 25 16:53:30 +0000"
+}
+
+
+
+
+]
+
+
+
+
+

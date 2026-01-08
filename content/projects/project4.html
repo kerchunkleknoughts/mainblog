@@ -1,0 +1,360 @@
+---
+title: New art!
+date: 2026-01-08
+description: Latest art that I've worked on! Got into water color a little bit, so thats new.
+tags: 
+- projects
+- posts
+- featured
+---
+ {% assign library = "projects.html" %}
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+   
+{% include "partials/defstyle.njk" %}
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+
+
+
+
+    <div class="maindiv">
+    
+
+ {% include "partials/contentheader.njk" %}
+       
+        
+
+
+
+
+<br><br>
+
+
+
+
+
+
+    {% assign indi = -1 %}
+   
+    {% assign brcnt = 0 %}
+
+    {% assign midcond = 1 %}
+
+    {% assign swapper = 1 %}
+
+    {% assign swappee = 3 %}
+
+
+
+    
+
+  <audio id="bgm" loop>
+    <source src="./resources/audio/Balatro Theme 4.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+
+
+
+
+
+<br><br>
+<div class="bparentbox">
+
+ 
+
+  <div class="bchildtextbox"  >
+             
+            
+                                            
+                                                  
+                                            
+                                            
+    <div>
+       <p class="betterp">
+        Here is my latest art! 
+        My full art directory can be found 
+        here:
+      
+        <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">art</a>
+        
+      </p>
+        </div>
+       
+       
+       
+
+</div>
+</div>
+
+
+
+
+
+     
+<div class="bparentbox">
+
+    
+  
+        <div>
+            <img src="./resources/photos/coldcurly.jpg" class="photolay" id="reptarget" onclick="off('reptarget')"></img>
+             </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% for post in artpaths %}
+{% assign brcnt = brcnt | plus: 1 %}
+{% assign midcond = 1 %}
+
+
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+{%- if brcnt == 1 -%}
+{% assign midcond = 0 %}
+
+<div class="bparentbox">
+
+
+
+
+
+    <div class="bchildtextbox" style="height:auto" id="1">
+
+        {% assign indi = indi | plus: 1 %}
+        <div>
+            <img src="{{ post.path }}" class="indicator3gal" onclick="repphotocontent1({{indi}})"></img>
+        </div>
+
+    </div>
+
+{%- endif -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{%- if brcnt == swappee -%}
+{% assign brcnt = 0 %}
+{% assign midcond = 0 %}
+
+
+
+
+
+{% assign swapper = swapper | times: -1 %}
+
+
+{%- if swapper == 1 -%}
+{% assign swappee = 3 %}
+
+
+
+{%- else -%}
+{% assign swappee = 4 %}
+
+
+{%- endif -%}
+
+
+
+
+<!-- this is end condition -->
+
+ <div class="bchildtextbox"  id="1">
+
+        {% assign indi = indi | plus: 1 %}
+        <div>
+            <img src="{{ post.path }}" class="indicator3gal" onclick="repphotocontent1({{indi}})"></img>
+        </div>
+
+        <div>
+            
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+    </div>
+
+
+  
+    {%- endif -%}
+
+
+
+
+
+
+
+{%- if midcond == 1 -%}
+
+    <!-- this is cont condition -->
+
+     <div class="bchildtextbox" id="1">
+
+        {% assign indi = indi | plus: 1 %}
+        <div>
+            <img src="{{ post.path }}" class="indicator3gal" onclick="repphotocontent1({{indi}})"></img>
+        </div>
+
+       
+
+    </div>
+
+  {%- endif -%}
+
+
+
+
+
+
+
+
+{% endfor %}
+        
+
+            
+
+
+
+
+
+
+
+
+
+
+
+   
+            <script>
+
+              // THIS SECTION IS JUST FOR THE ON CLICK MAGNIFIER THING, you neeed
+              // to put the other paths in the artpaths.json file in the data section.
+
+
+let photo = [
+
+"../resources/art/drawings/art 1-8-2026/20260101_124151.jpg",    
+"../resources/art/drawings/art 1-8-2026/20260101_124207.jpg", 
+"../resources/art/drawings/art 1-8-2026/20260101_124225.jpg", 
+"../resources/art/drawings/art 1-8-2026/20260107_192016.jpg", 
+"../resources/art/drawings/art 1-8-2026/20260107_192033.jpg",    
+"../resources/art/drawings/art 1-8-2026/20260107_192043.jpg",   
+
+];
+
+
+            </script>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+{% assign index = 4 %}
+
+{% include "partials/contentfooter.njk" %}
+
+</div>
+
+
+
+
+
+ 
+ {% assign goption = 2 %}
+
+
+ {% include "partials/contentscripts.njk" %}
+
+
+ 
+
+
+
+</body>
+</html>
