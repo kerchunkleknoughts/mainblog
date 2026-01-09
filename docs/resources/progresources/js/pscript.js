@@ -945,3 +945,27 @@ function navdreams(dreamindex) {
 
 }
 
+
+
+
+
+
+
+function skullyrepd(skullindex){
+
+
+  var correctform=document.getElementById(skullindex);
+  //console.log(correctform.value);
+  let fucky=document.createElement('image');
+  fucky.innerHTML=
+  `
+   <img src="../resources/images/aggro.gif" class="indicatorp5"> </img>
+`
+;
+  
+  correctform.replaceWith(fucky);
+
+
+
+}
+

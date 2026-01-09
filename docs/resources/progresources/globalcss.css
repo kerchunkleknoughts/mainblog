@@ -1391,6 +1391,16 @@ padding-left: 20px;
            
            
            }
+
+
+                 .indicatorp5 {
+            
+            display: flex;
+            width: 50px;
+            height: auto; /* Maintains aspect ratio */
+           
+           }
+           
            
            
            .indicator2 {
@@ -1436,6 +1446,25 @@ padding-left: 20px;
       padding: 10px;
       background-color: rgb(247, 237, 225);
            }
+
+
+          .mainmaindiv {
+          display: flex;
+          
+          width: fit-content;
+          margin: auto;
+       
+          
+
+          }
+
+
+                             .leftsidebar{
+                     border-style: solid;  
+                     background-color: rgb(247, 237, 225);      
+                     margin: 10px;           
+           }
+
 
 
 

@@ -47,9 +47,18 @@ body {
 
 
     <div class="headstyle">
+
+
+        
+  <img src="./resources/images/skull.gif" id="skully1" onmouseover="skullyrep('skully1')" class="indicatorp5" > </img>
+
+
     <h4>
-        welcome to my homepage!
+        welcome to my website!
     </h4>
+
+    <img src="./resources/images/skull.gif" id="skully2" onmouseover="skullyrep('skully2')" class="indicatorp5" > </img>
+
 </div>
 
 
@@ -387,6 +396,170 @@ body {
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+<link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
+
+<script src="./resources/progresources/js/script.js"></script>  
+<script>
+
+
+
+
+
+        
+
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+
+
+
+          displayart(4);
+
+
+          
+
+
+
+          
+          
+          checkboxx();
+
+
+            let audio = document.getElementById("bgm");
+
+            if (document.referrer.includes("google.")) {
+    console.log("User came from Google!");
+}
+
+
+
+
+const params = new URLSearchParams(window.location.search);
+const source = params.get("source");
+
+if (source) {
+  console.log("hey you used parameters!")
+  console.log(source)
+}
+
+
+
+            setTimeout(() => {
+              var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+
+                audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+            }, 1500); // Delay autoplay
+    
+    
+        
+            
+        });
+  
+       
+        function playAudio() {
+           
+
+
+            // this also serves as a main loop I guess
+
+            //move_item()
+
+              //move_item('skully52',100,100)
+           
+    
+            // Remove event listeners after first interaction to prevent multiple triggers
+          
+            let musicenabled=1;
+    
+            
+            
+            if(!(document.getElementById("bgm")==null)){
+    
+            document.body.click();
+            //console.log("MOUSED!");
+            let audio = document.getElementById("bgm");
+
+             var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+            if (audio.paused == false) {
+              
+              document.body.removeEventListener('mouseover', playAudio);
+              console.log("eventlistener removed :(");
+              let audio = document.getElementById("postmusicclick");
+
+              if(value==1){
+              audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+              
+            }
+
+
+            }else{
+
+              let audio = document.getElementById("postmusicclick");
+
+              
+              
+              audio.play().catch(error => console.log("Autoplay blocked:", error));
+              
+    
+                console.log("post music click");
+
+              
+
+             
+            }
+    
+    
+    
+    
+        }
+    
+
+        chattable.initialize({
+        theme : "Tendo"
+      });
+
+      generateheader();
+</script>
 
 </div>
 
