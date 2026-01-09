@@ -519,7 +519,7 @@ overflow: auto; /* Enables scrolling when content exceeds max height */
   overflow: auto; /* Enables scrolling when content exceeds max height */
   
   max-width: 200px;
-  max-height: 120px;
+  max-height: 200px;
   }
   
 
@@ -1454,6 +1454,8 @@ padding-left: 20px;
           width: fit-content;
           margin: auto;
        
+          justify-content: space-between;
+       
           
 
           }
@@ -1462,7 +1464,11 @@ padding-left: 20px;
                              .leftsidebar{
                      border-style: solid;  
                      background-color: rgb(247, 237, 225);      
-                     margin: 10px;           
+                     margin: 5px;
+                     width: 200px;
+                      
+                      
+                       
            }
 
 
