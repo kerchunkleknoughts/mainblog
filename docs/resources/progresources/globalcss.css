@@ -426,6 +426,13 @@ margin-right: 100px; /* optional spacing */
   
   white-space: pre-line;
 }
+
+.betterpf{
+  
+  white-space: pre-line;
+  max-width: 500px;
+}
+
 .betterptrn{
   white-space: pre-line;
 }
