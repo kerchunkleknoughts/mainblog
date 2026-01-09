@@ -64,9 +64,80 @@ date: 2025-12-17
 <br><br>
 <hr>
 
+
+
+
+
+
+
+  <div>
+
+    <h2 class="lefttext">featured:</h2>
+    
+    {% for post in collections.fprojects reversed %}
+    <h3 class="centertext"> 
+      {{ post.data.title }}
+    </h3>
+    {% endfor %}
+
+</div>
+
+  {% for post in collections.ffeatured reversed %}
+
+
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
+
+   
+
+      <div class="betterparentboxcenter">
+<div class="betterp">
+  {{ post.data.description }}
+</div>
+    
+
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
+
+</div>
+
+
+
+  {% endfor %}
+
+
+
+
+
+  <br><br>
+<hr style="border-top: dashed 2px;" />
+
+
+
+
+
 <div>
 
-    <h2 class="lefttext">featured posts:</h2>
+    <h2 class="lefttext">more featured:</h2>
 </div>
 
 
