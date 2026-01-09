@@ -26,10 +26,6 @@
 
 
 
-<div>
-
-    <h2 class="lefttext">Latest posts:</h2>
-</div>
 
 
 
@@ -39,6 +35,105 @@
  
 
 
+  <div>
+
+    <h2 class="lefttext">featured:</h2>
+    
+    {% for post in collections.fprojects reversed %}
+    <h3 class="centertext"> 
+      {{ post.data.title }}
+    </h3>
+    {% endfor %}
+
+</div>
+
+
+<div >
+ 
+  
+  {% for post in collections.fprojects reversed %}
+
+
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
+
+   
+
+      <div class="betterparentboxcenter">
+<div class="betterp">
+  {{ post.data.description }}
+</div>
+    
+
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
+
+</div>
+
+
+
+
+
+  {% endfor %}
+
+
+  
+
+
+
+
+
+
+
+  <br><br>
+<hr style="border-top: dotted 10px;" />
+
+<div>
+
+    <h2 class="lefttext">Links:</h2>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/music.html">my music</a></li> <br>
+        </ul>
+
+          <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">my art</a></li> <br>
+        </ul>
+
+
+
+</div>
+
+
+
+  <br><br>
+<hr style="border-top: dashed 2px;" />
+
+
+
+<div>
+
+    <h2 class="lefttext">Latest posts:</h2>
+</div>
 
 
 <div class="scrollme">
@@ -71,29 +166,6 @@
 
 
   </ul>
-
-</div>
-
-
-
-
-
-  <br><br>
-<hr style="border-top: dotted 10px;" />
-
-<div>
-
-    <h2 class="lefttext">Links:</h2>
-
-        <ul>
-       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/music.html">music</a></li> <br>
-        </ul>
-
-          <ul>
-       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">art</a></li> <br>
-        </ul>
-
-
 
 </div>
 
