@@ -1,0 +1,398 @@
+ 
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+
+        
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+        
+        <style>
+
+body {
+          background-color: rgb(207, 240, 230);
+   
+        }
+
+
+    </style>
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+
+      <!-- put this in your <head> -->
+<link
+rel="stylesheet"
+href="https://thegreenroom.neocities.org/webrings/tvtimewebring/onionring.css"/>
+
+<link rel="stylesheet" href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css">
+
+<script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
+
+<link rel="stylesheet" href="https://lydels.neocities.org/musicianswebring/onionring.css">
+
+
+            
+
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ 
+
+
+
+    <div class="headstyle">
+
+    <img src="../resources/images/skull.gif" id="skully1" onmouseover="skullyrepd('skully1')" class="indicatorp5" > </img>
+    <h4>
+        rss feed tester
+    </h4>
+
+    <img src="../resources/images/skull.gif" id="skully2" onmouseover="skullyrepd('skully2')" class="indicatorp5" > </img>
+</div>
+
+<hr>
+
+
+
+<div class="headstyle">
+
+
+
+
+
+    <header>
+      <div>
+
+
+
+    
+        <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/about.html">about |</a>
+        <a href="../index.html">home |</a>
+        <a href="../projects.html">creative/projects |</a> 
+        <a href="../blog.html">blog |</a> 
+        <a href="../misc.html">misc |</a> 
+        <a href="../guestbook.html">guestbk/socials |</a> 
+    
+
+
+
+      </div>
+
+    </header>
+
+
+  </div>
+
+      <div class="spacer">
+
+        </div>
+
+       
+
+<hr>
+<br><br>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> ayo</h1>
+<hr>
+</div>
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+    just testing if my rss feed works, 
+    I use this handy dandy tool called ifttt
+    which auto posts on tumblr whenever I 
+    make a new page on this website. 
+
+    Since my rss feed is automated via 11ty, 
+    I set up ifttt to detect rss changes which
+    report on every new page I make. 
+
+    Give it a go <a href="https://ifttt.com/">here</a> !
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <div class="parentboxcenter">
+
+    <div class="headystyle">
+    
+  
+      
+
+       <button onclick="gotoprevindex(0)">Prev post</button>
+       <button onclick="gotonextindex(0)">Next post</button>
+
+       <button onclick="randomdream()">random post</button>
+       <button onclick="location.href='../misc.html'">post library</button>
+
+
+   
+   </div>
+   </div>
+   
+
+
+
+<br><br><br><br>
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="../feed.xml" class="childtextboxpadded">
+        <img src="../resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+
+</div>
+
+    </footer>
+
+
+
+    
+
+
+    
+
+</div>
+
+
+
+
+
+ 
+ 
+
+
+ 
+<script>
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        
+        randodreamaudio()
+    
+        
+
+
+
+
+        let audio = document.getElementById("bgm");
+        setTimeout(() => {
+            
+
+            var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        }, 1500); // Delay autoplay
+
+    });
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+        let musicenabled=1;
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        //console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+               var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+        audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("eventlistener removed :(");
+          let audio = document.getElementById("postmusicclick");
+
+          if(value==1){
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+          }
+          
+        }
+
+
+        }else{
+
+          let audio = document.getElementById("postmusicclick");
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+
+
+            console.log("post music click");
+
+          
+
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+<script src="../resources/progresources/js/bscript.js"></script>  
+
+
+
+
+
+
+
+
+ 
+
+
+
+</body>
+</html>

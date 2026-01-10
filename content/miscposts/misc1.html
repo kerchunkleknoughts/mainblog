@@ -1,0 +1,128 @@
+---
+title: rss feed tester
+date: 2026-01-10    
+description: just testing if my rss feed works, i use this handy dandy tool called ifttt which auto posts on tumblr whenever i make a new page on this website, since my rss feed is automated via 11ty i set up ifttt to detect rss changes which report on every new page i make
+tags: 
+- mposts
+- posts
+---
+ {% assign library = "misc.html" %}
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+{% include "partials/defstyle.njk" %}
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ {% include "partials/contentheader.njk" %}
+       
+
+<hr>
+<br><br>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> ayo</h1>
+<hr>
+</div>
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+    just testing if my rss feed works, 
+    I use this handy dandy tool called ifttt
+    which auto posts on tumblr whenever I 
+    make a new page on this website. 
+
+    Since my rss feed is automated via 11ty, 
+    I set up ifttt to detect rss changes which
+    report on every new page I make. 
+
+    Give it a go <a href="https://ifttt.com/">here</a> !
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+<br><br>
+
+
+
+
+
+
+
+{% assign index = 0 %}
+
+{% include "partials/contentfooter.njk" %}
+
+</div>
+
+
+
+
+
+ 
+ {% assign goption = 3 %}
+
+
+ {% include "partials/contentscripts.njk" %}
+
+
+ 
+
+
+
+</body>
+</html>
