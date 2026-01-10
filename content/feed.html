@@ -33,7 +33,7 @@ eleventyImport:
     <title>{{ post.data.title }}</title>
     <description>{{ post.data.description }}
     </description>
-    <link></link>
+    <link>{{ site.url }}{{ post.url }}</link>
     <guid></guid>
     <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
   </item>
