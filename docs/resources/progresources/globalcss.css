@@ -1501,6 +1501,12 @@ padding-left: 20px;
     overflow-y: auto;  
 }
 
+           .scrollmey{
+    max-width: 400px;
+
+    overflow-x: auto;  
+}
+
 
            .leftcenter{
             margin-left:50px;

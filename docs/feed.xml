@@ -115,6 +115,16 @@
 
   
   <item>
+    <title>Spotify piracy guide</title>
+    <description>Want a break from the ads? yes, yes I fucking do.
+    </description>
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost5.html</link>
+  
+    <pubDate>Sat, 10 Jan 2026 17:00:00 -0700</pubDate>
+  </item>
+
+  
+  <item>
     <title>rss feed tester</title>
     <description>just testing if my rss feed works, i use this handy dandy tool called ifttt which auto posts on tumblr whenever i make a new page on this website, since my rss feed is automated via 11ty i set up ifttt to detect rss changes which report on every new page i make
     </description>

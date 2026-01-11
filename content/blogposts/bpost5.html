@@ -1,0 +1,195 @@
+---
+title: Spotify piracy guide
+date: 2026-01-11
+description: Want a break from the ads? yes, yes I fucking do. 
+tags: 
+- posts
+- featured
+- bposts
+image: "resources/images/spaceship.png"
+---
+ {% assign library = "blog.html" %}
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+{% include "partials/defstyle.njk" %}
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ {% include "partials/contentheader.njk" %}
+       
+
+<hr>
+<br><br>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Intro </h1>
+<hr>
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/how.webp" style="height:auto ; width: 500px;" > </img>
+
+</div>
+
+
+
+
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+    It is a crime against our ears and 
+    humanity to be subjected to an endless 
+    assault of adverts every fucking waking 
+    moment of our existance. 
+
+    So I am going to help you out a little 
+    with getting rid of spotify ads at least. 
+
+  </p>
+</div>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Step 1 </h1>
+<hr>
+</div>
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+        follow this tutorial <a href="https://jaredheinrichs.substack.com/p/how-to-remove-ads-from-spotify-on">here</a>, then 
+        I have a little .bat script to 
+        share with the class which 
+        will automate the spicetify 
+        installation process. 
+  </p>
+</div>
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Step 2 </h1>
+<hr>
+</div>
+
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+        My script is below. Read it over 
+        to make sure its safe, as you should 
+        with any random code online. Then afterwards, 
+        go into notepad and paste the code. 
+
+        Then save it as "insertname".bat 
+        make sure to hit save as any file instead of 
+        save as .txt right next to it, so that 
+        it saves as a batch file. 
+
+        then, whenever spotify updates and 
+        breaks your spicetify, you just click the 
+        .bat script which will rerun the spicetify 
+        installer and auto input yes for the marketplace
+        option. 
+  </p>
+</div>
+
+<br>
+
+
+<div >
+
+
+<pre  class="scrollmey">
+  <code>
+@echo off
+for /l %%i in (1,1,1) do (
+    echo y | powershell -NoProfile -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/spicetify/cli/main/install.ps1 | iex"
+)
+  </code>
+</pre>
+
+</div>
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Step 3 </h1>
+<hr>
+</div>
+
+<div class="textcenter">
+  <p class="betterp">
+        BE FREE!
+        Run through the hills and meadows unshackled by 
+        the tyranny of spotify adverts! Live life anew 
+        as a free, spotify listener!
+  </p>
+</div>
+
+
+{% assign index = 4 %}
+
+{% include "partials/contentfooter.njk" %}
+
+</div>
+
+
+
+
+
+ 
+ {% assign goption = 3 %}
+
+
+ {% include "partials/contentscripts.njk" %}
+
+
+ 
+
+
+
+</body>
+</html>
