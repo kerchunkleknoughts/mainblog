@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+     {% include "partials/defstyle.njk" %}
+
+     <link rel="stylesheet" href="./resources/progresources/globalcss.css">
+
+
+<script>
+  // List of members. You need to update this by hand. 
+  const members = [
+    {
+      url: "https://example0.com/",
+      title: "kerchunkles place"
+    },
+    {
+      url: "https://google.com/",
+      title: "google dot com"
+    },
+  ];
+</script>
+<script src="https://petrapixel.neocities.org/assets/js/webringu.js"></script>
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <div class="maindiv">
+    
+
+  {% include "partials/header.njk" %}
+       
+        
+  <br><br>
+
+    <div>
+
+    <h2 class="lefttext">featured:</h2>
+    
+    {% for post in collections.mfeatured reversed %}
+    <h3 class="centertext"> 
+      {{ post.data.title }}
+    </h3>
+    {% endfor %}
+
+</div>
+
+
+
+
+  {% for post in collections.mfeatured reversed %}
+
+   {% for post in collections.mfeatured reversed %}
+    <h3 class="centertext"> 
+     
+    </h3>
+    {% endfor %}
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
+
+   
+
+      <div class="betterparentboxcenter">
+<div class="betterpf">
+  {{ post.data.description }}
+</div>
+    
+
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
+
+</div>
+
+
+
+
+
+  {% endfor %}
+
+
+  
+<br><br>
+<hr style="border-top: dotted 10px;" />
+
+
+
+<div>
+
+    <h2 class="lefttext">Links:</h2>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/resources.html">resources</a></li> <br>
+        </ul>
+
+          <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/dogshit.html"> dogshit </a></li> <br>
+        </ul>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/todo.html"> todo list </a></li> <br>
+        </ul>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/about.html"> my old homepage </a></li> <br>
+        </ul>
+
+
+       
+
+</div>
+
+
+
+
+
+  <br><br>
+<hr style="border-top: dashed 2px;" />
+
+
+
+<div>
+
+    <h2 class="lefttext">Latest posts:</h2>
+</div>
+
+
+
+  
+  
+
+ 
+<div class="scrollme">
+    <ul>
+  
+
+  {% for post in collections.mposts reversed %}
+
+
+
+  
+
+ 
+
+   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
+
+
+   
+
+    
+
+
+ 
+
+
+
+
+
+  {% endfor %}
+
+</ul>
+
+ 
+</div>
+
+{% include "partials/footer.njk" %}
+
+
+
+
+
+
+
+
+</body>
+</html>
