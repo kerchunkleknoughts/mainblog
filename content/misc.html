@@ -20,9 +20,74 @@
        
         
 
-<br><br>
+    <div>
+
+    <h2 class="lefttext">featured:</h2>
+    
+    {% for post in collections.mfeatured reversed %}
+    <h3 class="centertext"> 
+      {{ post.data.title }}
+    </h3>
+    {% endfor %}
+
+</div>
 
 
+
+
+  {% for post in collections.mfeatured reversed %}
+
+   {% for post in collections.mfeatured reversed %}
+    <h3 class="centertext"> 
+     
+    </h3>
+    {% endfor %}
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
+
+   
+
+      <div class="betterparentboxcenter">
+<div class="betterpf">
+  {{ post.data.description }}
+</div>
+    
+
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
+
+</div>
+
+
+
+
+
+  {% endfor %}
+
+
+
+
+  <br><br>
+<hr style="border-top: dotted 10px;" />
 
 
 
@@ -33,21 +98,17 @@
 
 
 
-  {% assign indi = -1 %}
+  
   
 
  
-
-
-
-
 <div class="scrollme">
     <ul>
   
 
   {% for post in collections.mposts reversed %}
 
-  {% assign indi = indi | plus: 1 %}
+
 
   
 
