@@ -3,7 +3,8 @@
 let urls = [
   "bpost1.html", 
   "bpost2.html", 
-  "bpost3.html" 
+  "bpost3.html",
+   "bpost4.html"
 ];
 
 

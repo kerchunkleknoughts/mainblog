@@ -105,6 +105,16 @@
 
   
   <item>
+    <title>Rimworld odessy run ship showcase</title>
+    <description>Come take a peek at the ship I made during my last rimworld run!
+    </description>
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost4.html</link>
+  
+    <pubDate>Fri, 09 Jan 2026 17:00:00 -0700</pubDate>
+  </item>
+
+  
+  <item>
     <title>rss feed tester</title>
     <description>just testing if my rss feed works, i use this handy dandy tool called ifttt which auto posts on tumblr whenever i make a new page on this website, since my rss feed is automated via 11ty i set up ifttt to detect rss changes which report on every new page i make
     </description>
