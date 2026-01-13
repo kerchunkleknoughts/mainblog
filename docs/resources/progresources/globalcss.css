@@ -100,6 +100,18 @@ flex-direction: row;
   
   
   }
+
+  .parentboxcenternoborder{
+  display: flex;
+  text-align: center;
+  border: none;
+  
+  justify-content: center;
+  
+  flex-direction: row;
+  
+  
+  }
   
  
 
@@ -262,6 +274,15 @@ display: flex;
 width: 200px;
 height: auto; /* Maintains aspect ratio */
 }
+
+
+.indicator7 {
+display: flex;
+width: 700px;
+height: auto; /* Maintains aspect ratio */
+}
+
+
 
 
 
@@ -522,6 +543,8 @@ overflow: auto; /* Enables scrolling when content exceeds max height */
   max-height: 200px;
   }
   
+
+
 
 
  
@@ -1448,6 +1471,8 @@ padding-left: 20px;
            }
 
 
+
+
           .mainmaindiv {
           display: flex;
           
@@ -1470,6 +1495,35 @@ padding-left: 20px;
                       
                        
            }
+
+                                   .largesidebar{
+                     border-style: solid;  
+                     background-color: rgb(247, 237, 225);      
+                     margin: 5px;
+                     width: 500px;
+                      
+                      
+                       
+           }
+
+
+              .largescroll{
+ 
+  display: flex;
+  text-align: center;
+  
+  
+  justify-content: space-evenly;
+  
+  flex-direction: column;
+  overflow: auto; /* Enables scrolling when content exceeds max height */
+  
+  max-width: 500px;
+  max-height: 500px;
+  }
+
+
+  
 
 
 
