@@ -70,6 +70,81 @@ date: 2025-12-17
                <hr style="border-top: dashed 2px;" />
 
 
+
+
+
+
+<div>
+
+    <h2 class="lefttext">more featured:</h2>
+</div>
+
+
+
+
+<div class="scrollme">
+
+    <ul>
+  
+
+  {% for post in collections.featured reversed%}
+
+ 
+
+   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
+
+
+   
+
+  {% endfor %}
+
+</ul>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div>
+
+    <h2 class="lefttext">all posts:</h2>
+</div>
+
+
+
+
+<div class="scrollme">
+
+    <ul>
+  
+
+  {% for post in collections.posts reversed%}
+
+ 
+
+   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
+
+
+   
+
+  {% endfor %}
+
+
+</ul>
+
+
+
+</div>
+
+
+
     </div>
 
 
@@ -188,35 +263,45 @@ date: 2025-12-17
   <br><br>
 <hr style="border-top: dashed 2px;" />
 
+<br><br>
+
+
+
+  {% for post in collections.fprojects reversed %}
 
 
 
 
-<div>
-
-    <h2 class="lefttext">more featured:</h2>
-</div>
-
-
-
-
-<div class="scrollme">
-
-    <ul>
-  
-
-  {% for post in collections.featured reversed%}
+<div class="betterparentboxcenter">
 
  
 
-   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
 
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
 
    
 
-  {% endfor %}
+      <div class="betterparentboxcenter">
+<div class="betterpf">
+  {{ post.data.description }}
+</div>
+    
 
-</ul>
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
 
 </div>
 
@@ -224,12 +309,16 @@ date: 2025-12-17
 
 
 
+  {% endfor %}
+
+
+  
 
 
 
 
 
-<br><br>
+
 
 
 
@@ -237,39 +326,59 @@ date: 2025-12-17
 <br><br>
 <hr style="border-top: dotted 10px;" />
 
-<div>
-
-    <h2 class="lefttext">all posts:</h2>
-</div>
 
 
 
 
-<div class="scrollme">
 
-    <ul>
-  
+  {% for post in collections.fbposts reversed %}
 
-  {% for post in collections.posts reversed%}
+
+
+
+<div class="betterparentboxcenter">
 
  
 
-   <li><a href=".{{ post.url }}">{{ post.data.title }}</a></li> <br>
 
+    <div>
+        
+        <img src="{{ post.data.image }}" class="indicator2"> </img>
+
+      </div>
+
+      </div>
 
    
+
+      <div class="betterparentboxcenter">
+<div class="betterpf">
+  {{ post.data.description }}
+</div>
+    
+
+
+</div>
+
+ 
+<div class="betterparentboxcenter">
+
+  <div class="betterp"> 
+    see the rest of this post <a href=" .{{ post.url }}">here</a>
+  </div>
+
+</div>
+
 
   {% endfor %}
 
 
-</ul>
-
-
-
-</div>
 
 
 <br><br><br><br>
+
+
+
 
 
 <div class="scrollmeystat">
