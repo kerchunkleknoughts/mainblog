@@ -1485,6 +1485,19 @@ padding-left: 20px;
 
           }
 
+                .mainmaincontentdiv {
+          display: flex;
+          
+          width: fit-content;
+          margin: auto;
+       
+          
+          align-items: stretch;
+       
+          
+
+          }
+
 
                              .leftsidebar{
                      border-style: solid;  
@@ -1502,10 +1515,29 @@ padding-left: 20px;
                      margin: 5px;
                      width: 200px;
                      height: fit-content;
+                     
                       
                       
                        
            }
+
+
+
+                                                .rightsidebarcontent{
+                     
+ 
+                     border-style: solid;  
+                     background-color: rgb(247, 237, 225);      
+                     margin: 5px;
+                     width: 200px;
+                     height: fit-content;
+                     
+                     
+                      
+                      
+                       
+           }
+
 
                                    .largesidebar{
                      border-style: solid;  
