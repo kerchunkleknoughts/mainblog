@@ -29,7 +29,12 @@
     <description>Ya boy bobby had a little too much benadryl, join him in his trip through hell!
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/projects/project1.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Thu, 31 Jul 2025 18:00:00 -0600</pubDate>
   </item>
 
@@ -39,7 +44,12 @@
     <description>Oh yeah welcome to kitty town, come create the cat themed utopia of your dreams!
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/projects/project2.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Thu, 31 Jul 2025 18:00:00 -0600</pubDate>
   </item>
 
@@ -49,7 +59,12 @@
     <description>
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost0.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Sun, 14 Dec 2025 17:00:00 -0700</pubDate>
   </item>
 
@@ -59,7 +74,12 @@
     <description>
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost1.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Tue, 16 Dec 2025 17:00:00 -0700</pubDate>
   </item>
 
@@ -69,7 +89,12 @@
     <description>
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost2.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Thu, 18 Dec 2025 17:00:00 -0700</pubDate>
   </item>
 
@@ -79,7 +104,12 @@
     <description>Uhh don't you just love listening to someone geek out over some silly computer stuff? Me neither, but feel free to come learn how to supercharge your computer abilities with these handy ahk scripts.
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost3.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Fri, 19 Dec 2025 17:00:00 -0700</pubDate>
   </item>
 
@@ -89,7 +119,12 @@
     <description>They are coming. Waves upon waves of assorted creeps, cretins, imbeciles and perverts. MAN THE DEFENSE! PROTECT YOUR HOME! Equipped with state of the art weaponry, show those fools what is good.
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/projects/project3.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Tue, 06 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
@@ -99,7 +134,12 @@
     <description>Latest art that I've worked on! Got into water color a little bit, so thats new.
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/projects/project4.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Wed, 07 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
@@ -109,7 +149,12 @@
     <description>Come take a peek at the ship I made during my last rimworld run!
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost4.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Fri, 09 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
@@ -119,7 +164,12 @@
     <description>Want a break from the ads? yes, yes I fucking do.
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost5.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Sat, 10 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
@@ -129,7 +179,12 @@
     <description>Like rimworld? Want to join a webring? Well buddy do I have some news for you!
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/miscposts/misc2.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/</url>
+
+    </image>
+
     <pubDate>Fri, 16 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
@@ -139,7 +194,12 @@
     <description>just testing if my rss feed works, i use this handy dandy tool called ifttt which auto posts on tumblr whenever i make a new page on this website, since my rss feed is automated via 11ty i set up ifttt to detect rss changes which report on every new page i make
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog/miscposts/misc1.html</link>
-  
+    
+    <image>
+    <url>https://kerchunkleknoughts.github.io/mainblog/resources/images/bruh.jpg</url>
+
+    </image>
+
     <pubDate>Sun, 25 Jan 2026 17:00:00 -0700</pubDate>
   </item>
 
