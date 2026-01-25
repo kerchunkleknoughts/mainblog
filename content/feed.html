@@ -35,10 +35,9 @@ eleventyImport:
     </description>
     <link>https://kerchunkleknoughts.github.io/mainblog{{ post.url }}</link>
     
-    <image>
-    <url>https://kerchunkleknoughts.github.io/mainblog/{{ post.data.imageurl }}</url>
+
     <enclosure url="https://kerchunkleknoughts.github.io/mainblog/{{ post.data.imageurl }}" type="image/jpeg" />
-    </image>
+  
 
     <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
   </item>
