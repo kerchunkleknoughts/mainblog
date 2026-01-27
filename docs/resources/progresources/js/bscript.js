@@ -5,7 +5,8 @@ let urls = [
   "bpost2.html", 
   "bpost3.html",
    "bpost4.html",
-   "bpost5.html"
+   "bpost5.html",
+   "bpost6.html"
 
 ];
 
