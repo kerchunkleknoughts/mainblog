@@ -34,7 +34,10 @@ let urls = [
   "project00.html", 
   "project01.html", 
   "project02.html", 
-  "project03.html"
+  "project03.html",
+  "project04.html",
+  "project05.html"
+
 
 ];
 
