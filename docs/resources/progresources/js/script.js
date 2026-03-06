@@ -1043,6 +1043,32 @@ function flyyoufool(){
 
 }
 
+function change_review_name(targetname){
+  var correctform=document.getElementById("currentreview");
+  //console.log(correctform.value);
+  let fucky=document.createElement('div');
+  fucky.innerHTML=
+
+  `
+  <div class="parentbox" id="currentreview">
+    <p>`+
+    targetname
+    +`
+    </p>
+    </div>
+    `
+
+;
+  
+  correctform.replaceWith(fucky);
+
+  
+
+}
+
+
+
+
 
 function on(element) {
   document.getElementById(element).style.display = "block";
