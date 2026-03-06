@@ -815,12 +815,85 @@ function generalrep(index,targetsrc){
 
 
 
+var currently_moving=0
+
 
 function grower(target){
-  target.style.width = "1000px";
+
+  var growto=180
+  var shrinkto=150
+
+  let i = shrinkto;
+  let thresh=growto
+
+  if(!(currently_moving)){
+
+  currently_moving=1
+  
+
+  let grow = setInterval(function(){
+
+
+      
+
+    target.style.width = i + "px";
+    target.style.height = i + "px";
+    i++;
+
+    if(i > thresh){
+      clearInterval(grow);
+      currently_moving=0;
+    }
+
+  }, .5);
+
+
+
   console.log("hover detected");
+} 
+
+
 }
 
+function shrinker(target){
+
+  var growto=180
+  var shrinkto=150
+  
+  let i = growto;
+  let thresh=shrinkto
+
+  if(!(currently_moving)){
+
+  currently_moving=1
+  
+
+  let grow = setInterval(function(){
+
+
+       if(i <= thresh){
+      clearInterval(grow);
+      currently_moving=0;
+    }
+      
+
+    target.style.width = i + "px";
+    target.style.height = i + "px";
+    i--;
+
+ 
+
+  }, .5);
+
+
+
+  console.log("hover detected");
+} 
+
+
+  
+
+}
 
 
 

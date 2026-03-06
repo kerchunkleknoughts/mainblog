@@ -1420,6 +1420,7 @@ padding-left: 20px;
            }
            
            
+
            
 
 
@@ -1461,7 +1462,7 @@ padding-left: 20px;
 
            }
 
-           
+
            
            
            
@@ -1654,3 +1655,12 @@ padding-left: 20px;
  th, td {
   border: 1px solid;
 }
+
+
+                 .grower {
+            
+            display: flex;
+            width: 150px;
+            height:150px; 
+           
+           }
