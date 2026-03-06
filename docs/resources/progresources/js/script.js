@@ -789,6 +789,33 @@ function skullyrep(skullindex){
 
 
 
+function generalrep(index,targetsrc){
+
+
+  var correctform=document.getElementById(index);
+  //console.log(correctform.value);
+  let fucky=document.createElement('image');
+  fucky.innerHTML=
+  
+  `
+   <img src=` +  targetsrc +
+   ` class="indicatorp5"> </img>`
+
+;
+
+
+  
+
+  correctform.replaceWith(fucky);
+
+
+
+}
+
+
+
+
+
 function skullyrepd(skullindex){
 
 
