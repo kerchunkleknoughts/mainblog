@@ -787,6 +787,8 @@ function skullyrep(skullindex){
 
 }
 
+
+
 function skullyrepd(skullindex){
 
 
@@ -1047,6 +1049,8 @@ function returnupdatenextindex(){
   return currentindex;
 
 }
+
+
 
 
 
