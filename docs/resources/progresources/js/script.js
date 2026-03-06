@@ -799,7 +799,7 @@ function generalrep(index,targetsrc){
   
   `
    <img src=` +  targetsrc +
-   ` class="indicatorp5"> </img>`
+   ` class="indicator4"> </img>`
 
 ;
 
@@ -812,6 +812,14 @@ function generalrep(index,targetsrc){
 
 }
 
+
+
+
+
+function grower(target){
+  target.style.width = "1000px";
+  console.log("hover detected");
+}
 
 
 
