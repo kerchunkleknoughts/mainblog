@@ -1051,10 +1051,12 @@ function change_review_name(targetname){
 
   `
   <div class="parentbox" id="currentreview">
+    <div class="childtextboxpadded2">
     <p>`+
     targetname
     +`
     </p>
+    </div>
     </div>
     `
 

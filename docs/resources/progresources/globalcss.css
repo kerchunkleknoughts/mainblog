@@ -667,7 +667,30 @@ overflow: auto; /* Enables scrolling when content exceeds max height */
   
   
   }
+
+   .childtextboxpadded2{
  
+ 
+  text-align: center;
+  background-color: rgb(194, 184, 253);
+ 
+
+                      border-style: dashed;      
+  
+  justify-content: center;
+  
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+  
+  
+  }
+ 
+ 
+
+
  
  .indicator2 {
   
@@ -1527,9 +1550,7 @@ padding-left: 20px;
                      height: fit-content;
                      
                      
-                             position: -webkit-sticky; /* Safari */
-                      position: sticky;
-                      top: 0;
+                       
                  
                                     
                       
@@ -1537,13 +1558,15 @@ padding-left: 20px;
            }
 
                                          .rightsidebartravel{
-                     border-style: solid;  
-                     background-color: rgb(247, 237, 225);      
+                    
+                      
                      margin: 5px;
                      width: 200px;
                      height: fit-content;
                      
-                      
+                            position: -webkit-sticky; /* Safari */
+                      position: sticky;
+                      top: 50px;
                       
                        
            }
