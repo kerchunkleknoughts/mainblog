@@ -1,0 +1,533 @@
+ 
+
+
+
+
+<!doctype html> 
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+      <meta http-equiv="refresh" content="0; url=https://kerchunkleknoughts.itch.io/super-duper-doggy-blaster-the-game">
+
+
+        
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+        
+        <style>
+
+        
+
+body {
+          background-color: rgb(207, 240, 230);
+   
+        }
+
+
+    </style>
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+
+      <!-- put this in your <head> -->
+<link
+rel="stylesheet"
+href="https://thegreenroom.neocities.org/webrings/tvtimewebring/onionring.css"/>
+
+<link rel="stylesheet" href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css">
+
+<script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
+
+<link rel="stylesheet" href="https://lydels.neocities.org/musicianswebring/onionring.css">
+
+
+            
+                  
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+    <div class="maindiv">
+    
+
+ 
+
+
+
+<div id="holder">
+<audio id="bgm" loop muted autoplay>
+   
+</audio>
+</div>
+
+
+
+
+    <div class="headstyle">
+
+    <img src="../resources/images/skull.gif" id="skully1" onmouseover="skullyrepd('skully1')" class="indicatorp5" > </img>
+    <h4>
+        Super duper doggy blaster the video game
+    </h4>
+
+    <img src="../resources/images/skull.gif" id="skully2" onmouseover="skullyrepd('skully2')" class="indicatorp5" > </img>
+</div>
+
+<hr>
+
+
+
+<div class="headstyle">
+
+
+
+
+
+    <header>
+      <div>
+
+
+
+    
+        <a href="../about.html">about |</a>
+        <a href="../index.html">home |</a>
+        <a href="../projects.html">creative/projects |</a> 
+        <a href="../blog.html">blog |</a> 
+        <a href="../misc.html">misc |</a> 
+        <a href="../guestbook.html">guestbk/socials |</a> 
+    
+
+
+
+      </div>
+
+    </header>
+
+
+  </div>
+
+      <div class="spacer">
+
+        </div>
+
+       
+        
+
+<br><br>
+
+
+
+<div class="betterparentboxcenter">
+
+ 
+
+    <div>
+        
+        <img src="../resources/images/8bit.jpeg" class="indicator5"> </img>
+
+      </div>
+
+
+</div>
+
+<div class="betterparentboxcenter">
+    <p class="betterp">
+     project project project, mmm project
+
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <div class="parentboxcenter">
+
+    <div class="headystyle">
+    
+  
+      
+
+       <button onclick="gotoprevindex(0)">Prev post</button>
+       <button onclick="gotonextindex(0)">Next post</button>
+
+       <button onclick="randomdream()">random post</button>
+       <button onclick="location.href='../projects.html'">post library</button>
+
+
+   
+   </div>
+   </div>
+   
+
+
+
+ 
+<video autoplay muted loop id="myVideo">
+    <source src="../resources/video/again2.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+
+<br><br><br><br>
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="../feed.xml" class="childtextboxpadded">
+        <img src="../resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+
+</div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+<link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
+
+<script src="./resources/progresources/js/script.js"></script>  
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+   
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+
+
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+       
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+              
+        audio.muted=false;
+
+        console.log("Is autoplay muted?")
+        console.log(audio.muted)
+        audio.play();
+
+        //audio.play().catch(error => console.log("Autoplay blocked:", error));
+        
+
+
+
+        
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("listener removed.")
+
+
+        }
+
+
+
+
+      
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+ document.addEventListener("DOMContentLoaded", function() {
+
+        
+    randodreamaudio()
+
+     setTimeout(() => {
+            
+          playAudio()
+          let audio = document.getElementById("bgm");
+          audio.play();
+
+        }, 1500); // Delay autoplay
+
+
+
+    });
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+</div>
+
+
+
+
+
+ 
+ 
+
+
+ 
+<script>
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        
+        randodreamaudio()
+    
+        
+
+
+
+
+        let audio = document.getElementById("bgm");
+        setTimeout(() => {
+            
+
+            var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        }, 1500); // Delay autoplay
+
+    });
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+        let musicenabled=1;
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        //console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+               var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+        audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("eventlistener removed :(");
+          let audio = document.getElementById("postmusicclick");
+
+          if(value==1){
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+          }
+          
+        }
+
+
+        }else{
+
+          let audio = document.getElementById("postmusicclick");
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+
+
+            console.log("post music click");
+
+          
+
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+<script src="../resources/progresources/js/script.js"></script>  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+</body>
+</html>

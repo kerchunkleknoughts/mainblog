@@ -1,0 +1,1104 @@
+ 
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta content="0; url=project1.html">
+
+
+        
+
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+        
+        <style>
+
+        
+
+body {
+          background-color: rgb(207, 240, 230);
+   
+        }
+
+
+    </style>
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+
+      <!-- put this in your <head> -->
+<link
+rel="stylesheet"
+href="https://thegreenroom.neocities.org/webrings/tvtimewebring/onionring.css"/>
+
+<link rel="stylesheet" href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css">
+
+<script src="https://silly.possiblyaxolotl.com/ring/webstring.js"></script>
+
+<link rel="stylesheet" href="https://lydels.neocities.org/musicianswebring/onionring.css">
+
+
+            
+                  
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+<div class="mainmaindiv">
+
+
+
+    <div class="maindiv">
+    
+
+ 
+
+
+
+<div id="holder">
+<audio id="bgm" loop muted autoplay>
+   
+</audio>
+</div>
+
+
+
+
+    <div class="headstyle">
+
+    <img src="../resources/images/skull.gif" id="skully1" onmouseover="skullyrepd('skully1')" class="indicatorp5" > </img>
+    <h4>
+        Personal auto hotkey script showcase 2
+    </h4>
+
+    <img src="../resources/images/skull.gif" id="skully2" onmouseover="skullyrepd('skully2')" class="indicatorp5" > </img>
+</div>
+
+<hr>
+
+
+
+<div class="headstyle">
+
+
+
+
+
+    <header>
+      <div>
+
+
+
+    
+        <a href="../about.html">about |</a>
+        <a href="../index.html">home |</a>
+        <a href="../projects.html">creative/projects |</a> 
+        <a href="../blog.html">blog |</a> 
+        <a href="../misc.html">misc |</a> 
+        <a href="../guestbook.html">guestbk/socials |</a> 
+    
+
+
+
+      </div>
+
+    </header>
+
+
+  </div>
+
+      <div class="spacer">
+
+        </div>
+
+       
+
+<hr>
+<br><br>
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> intro</h1>
+<hr>
+</div>
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+    This is the second entry in a multi part series where
+    I dive into the auto hot key script that I use 
+    on all of my computers to enhance its core 
+    functionality! I believe that since computers 
+    are involved in so many parts of our lives, 
+    it is very important to become as proficient 
+    at using them as possible. 
+
+    so lets begin!
+  </p>
+</div>
+
+
+<br><br>
+
+<div class="parentboxcenter">
+  <hr>
+<h3> Switch ahk scripts </h3>
+<hr>
+</div>
+
+
+<pre class="textcenter">
+  <code>
+^!z::
+Run C:\interuserstorage\ahkstuff\st1.ahk
+ExitApp
+  </code>
+</pre>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        This one of my favorite commands, with this I am able to
+        start a different ahkscript and exit the currently running 
+        ahk script. This is useful for switching what your base 
+        commands do and effectively opens up an unlimited 
+        number of actions that can be performed with ahk!
+
+        For instance, you could create an ahk profile 
+        for different apps, which talor your ahk 
+        functionality to the app in question. 
+
+  </p>
+</div>
+
+
+
+
+
+
+<div class="parentboxcenter">
+  <hr>
+<h3> extended logi options plus functionality </h3>
+<hr>
+</div>
+
+
+<pre class="textcenter">
+  <code>
+
+;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SCROLL BUTTON
+
+
+#SingleInstance Force
+
+
+;@@@@@@@@@@@@DOWNSTROKE
+; windows cut functionality
+^+F1::  ; Ctrl + Shift + F1
+    Sleep, 100
+    Send, ^x                              ; Sends Ctrl + X
+return
+
+;@@@@@@@@@@@@RIGHT
+; PRESS ENTER!
+^+F2::  ; Ctrl + Shift + F2
+    Sleep, 100
+    SendInput, {Enter}
+return
+
+;@@@@@@@@@@@@LEFT
+; ALT tab 
+^+F3::  ; Ctrl + Shift + F3
+    Sleep, 100
+    Send, {Alt down}{Tab}{Alt up}       ; Alt + Tab
+    Sleep, 200
+return
+
+;@@@@@@@@@@@@UP
+; new window!
+^+F4::  ; Ctrl + Shift + F4
+    Sleep, 100
+    Send, ^n                               ; Ctrl + N
+return
+
+;@@@@@@@@@@@@PRESS
+; screen snip : )
+^+F5::  ; Ctrl + Shift + F5
+    Sleep, 100
+    Send, #+s  
+
+
+  </code>
+</pre>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        Another favorite of mine, 
+        I use this to synergize ahk with the 
+        mouse configuration software logi options 
+        plus. In logi options plus you are given 
+        a set number of macros each button can perform. 
+
+        However, all of these basic actions can be emulated 
+        via ahk. By setting the buttons to call the commands
+        defined in ahk, this allows profiles as talked about 
+        in the previous snippet to be extended to any logi 
+        mouse. Currently, I have a button on my mouse which 
+        switches ahk profiles, so that instead of being 
+        limited to the limited number of actions allowed 
+        by logi options plus, I can vastly increase 
+        the number of actions allowed by the mouse software. 
+
+        Whats more, since all of my computers use the same
+        ahk script, if I remote into a different computer,
+        all commands that I input from the host computer 
+        will transfer over to the remote computer. This 
+        effectly prevents any sort of issues with commands 
+        not being executed on other computers and ensures 
+        the same functionality from device to device. 
+
+
+
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
+<br><br>
+
+<div class="parentboxcenter">
+  <hr>
+<h3> Ensuring your ahk script starts on pc start up </h3>
+<hr>
+</div>
+
+
+<div class="textcenter">
+  <p class="betterp">
+        Now with everything I have talked about so far, 
+        all of the gains in efficiency are undercut by 
+        the fact that you need to run the ahk script 
+        every time you start your computer. I am going 
+        to show you how to configure the scheduler 
+        in order to make the ahk run automatically.
+
+  </p>
+</div>
+
+
+<div class="parentboxcenter">
+  <hr>
+<h3> scheduler intro </h3>
+<hr>
+</div>
+
+
+
+<div class="parentbox">
+
+
+<img src="../resources/images/schedule.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+
+
+
+
+<div class="textcenter">
+  <p class="betterp">
+          The first thing you want to do is 
+          to open up the search bar and type in task scheduler. It should open 
+          up an image that looks like the image above. 
+
+  </p>
+</div>
+
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action1.png" style="height:400px ; width: 400px;" > </img>
+
+</div>
+
+
+<div class="textcenter">
+  <p class="betterp">
+         Then go here, and hit create basic task. Afterwards, go through the 
+         setup and configure it like how I have my task configured below. 
+         Of course you will need to change the path to be relevant to
+         how you have your AHK scripts set up. I like to have my scripts in 
+         a path located directly in C:\ since that allows access to my 
+         AHK scripts if I am logged into a different user account.
+
+  </p>
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action2.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action3.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action4.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action5.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+<br><br>
+
+<div class="parentbox">
+
+
+<img src="../resources/images/action6.png" style="height:400px ; width: 800px;" > </img>
+
+</div>
+
+
+
+
+
+
+        
+
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <div class="parentboxcenter">
+
+    <div class="headystyle">
+    
+  
+      
+
+       <button onclick="gotoprevindex(2)">Prev post</button>
+       <button onclick="gotonextindex(2)">Next post</button>
+
+       <button onclick="randomdream()">random post</button>
+       <button onclick="location.href='../blog.html'">post library</button>
+
+
+   
+   </div>
+   </div>
+   
+
+
+
+ 
+<video autoplay muted loop id="myVideo">
+    <source src="../resources/video/again2.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+
+<br><br><br><br>
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="../feed.xml" class="childtextboxpadded">
+        <img src="../resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+
+</div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+<link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
+
+<script src="./resources/progresources/js/script.js"></script>  
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+   
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+
+
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+       
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+              
+        audio.muted=false;
+
+        console.log("Is autoplay muted?")
+        console.log(audio.muted)
+        audio.play();
+
+        //audio.play().catch(error => console.log("Autoplay blocked:", error));
+        
+
+
+
+        
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("listener removed.")
+
+
+        }
+
+
+
+
+      
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+ document.addEventListener("DOMContentLoaded", function() {
+
+        
+    randodreamaudio()
+
+     setTimeout(() => {
+            
+          playAudio()
+          let audio = document.getElementById("bgm");
+          audio.play();
+
+        }, 1500); // Delay autoplay
+
+
+
+    });
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+</div>
+
+
+ 
+ 
+
+
+ 
+ <div class="rightsidebar"> 
+  
+
+
+ 
+
+        
+
+          <div class="scrollmelong">
+            <h4 style="font-family: Impact"> 👀HOLY SHIT QUICK LINKS</h4>
+      
+    
+
+
+                      <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/music.html">my music</a></li> <br>
+        </ul>
+
+          <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">my art</a></li> <br>
+        </ul>
+
+
+                <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/wikifun.html">Interesting wiki pages</a></li> <br>
+        </ul>
+
+          <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/dreams/dream00.html">my dream log</a></li> <br>
+        </ul>
+
+        <ul>
+       <li><a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/photos.html">my photos</a></li> <br>
+        </ul>
+
+   
+
+ 
+  
+          </div>
+              
+  
+
+  <hr style="border-top: dashed 2px;" />
+
+
+
+
+
+ 
+<div>
+  <h2 class="lefttext"> featured:</h2>
+</div>
+
+<div class="scrollme">
+  <ul>
+  
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost1.html">Personal auto hotkey script showcase 1</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost5.html">post unavailable</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost6.html">shitty digital detox guide</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../projects/project5.html">medicine noose song cover</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost7.html">Post unavailable</a>
+      </li>
+    
+  </ul>
+</div>
+
+
+<hr style="border-top: dashed 2px;" />
+
+
+
+
+<div class="scrollme">
+
+
+<div>
+
+    <h2 class="lefttext">all posts:</h2>
+</div>
+
+
+  <ul>
+    
+    <br>
+      <li>
+        <a href="../projects/project1.html">spongebob benadryl adventure</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../projects/project2.html">kitty land the game</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost0.html">How to master alphabetical organization (silly)</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost1.html">Personal auto hotkey script showcase 1</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost2.html">Intro to rss</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost3.html">Personal auto hotkey script showcase 2</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../projects/project3.html">Super duper doggy blaster the video game</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../projects/project4.html">New art!</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost4.html">Rimworld odessy run ship showcase</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost5.html">post unavailable</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../miscposts/misc2.html">New rimworld webring!</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../miscposts/misc1.html">rss feed tester</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost6.html">shitty digital detox guide</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../projects/project5.html">medicine noose song cover</a>
+      </li>
+    
+    <br>
+      <li>
+        <a href="../blogposts/bpost7.html">Post unavailable</a>
+      </li>
+    
+  </ul>
+</div>
+
+ <hr style="border-top: dashed 2px;" />
+
+    
+      
+      <br>
+  
+
+
+      <br>
+
+
+
+    <br>
+    
+   
+
+          
+              <div class="parentboxcenter">
+
+             
+               <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/index">
+                        <img src="https://kerchunkleknoughts.github.io/dogwithablog.gov/resources/officialsitebutton/button.png" class="neighborhoodbuttonchild"></img>
+                          </a>
+                           </div>
+                  <div class="parentboxcenter">
+               <textarea id="w3review" name="w3review" rows="4" cols="10" >
+                        <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/index"><img src="https://kerchunkleknoughts.github.io/dogwithablog.gov/resources/officialsitebutton/button.png"></img></a>
+                        </textarea>
+                        </div>
+
+     
+
+
+
+
+
+
+<br><br>
+
+                              <div class="parentboxcenter">
+
+                                  <img src="../resources/images/nipshard1.png" class="indicatorp5"> </img>
+
+                                    <div class="childtextboxpadded">
+                           
+                                for the love of god come see my <a href="https://www.tumblr.com/kerchunkleknoughts">tumblr</a>
+                        </div>
+
+                              </div>
+
+
+
+
+
+<br><br>
+
+
+
+                              <div class="parentboxcenter">
+
+                                
+                                <div class="betterp">
+                                neocities
+                                <a href="https://neocities.org/site/kerchunkle">profile</a>
+                 
+                                </div>
+
+                                  <img src="../resources/images/Tumblr_l_117038179595094.jpg" class="indicatorp5"></img>
+
+                                   
+                                
+
+                              </div>
+
+
+                              <br><br>
+
+
+
+
+
+<div class="parentboxcenter">
+
+   <p> hey... did you know that you can <a href="mailto:theunclekerchunkle@gmail.com" style="color: rgb(0, 0, 0);">email</a> me? </p>
+   <img src="../resources/images/clip_preg.jpg" class="indicator1"></img>
+   
+   
+
+</div>
+
+
+
+
+
+                              
+    <br><br>
+
+
+                               <div class="betterparentboxcenter">
+            <iframe aria-label="Guestbook" id="guestbook" src="https://kerchunkle.atabook.org/" style="border: 0px none;  
+            height: 500px; margin-top: 0px; width: 200px;" loading="lazy"></iframe>
+            </div>
+
+        <br>
+    
+
+ 
+
+
+ 
+ 
+ 
+        
+
+ 
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+ 
+ 
+
+
+ 
+<script>
+
+
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        
+        randodreamaudio()
+    
+        
+
+
+
+
+        let audio = document.getElementById("bgm");
+        setTimeout(() => {
+            
+
+            var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+
+            audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        }, 1500); // Delay autoplay
+
+    });
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+        let musicenabled=1;
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        //console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+               var value = localStorage.getItem('enablemusic');
+               console.log("MUSIC ENABLE VALUE:")
+
+              console.log(value)
+              if(value==1){
+        audio.play().catch(error => console.log("Autoplay blocked:", error));
+              }
+
+
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("eventlistener removed :(");
+          let audio = document.getElementById("postmusicclick");
+
+          if(value==1){
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+          }
+          
+        }
+
+
+        }else{
+
+          let audio = document.getElementById("postmusicclick");
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+
+
+            console.log("post music click");
+
+          
+
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+</script>
+
+
+  
+
+
+
+
+
+
+
+
+<script src="../resources/progresources/js/bscript.js"></script>  
+
+
+
+
+
+
+
+
+ 
+
+
+
+</body>
+</html>

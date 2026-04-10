@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Kerchunkle blog v2</title>
+  <description>A little bloggy </description>
+  <link>https://kerchunkle.neocities.org/</link>
+  <lastBuildDate>Fri, 21 Mar 2025 12:45:46 GMT</lastBuildDate>
+  <ttl>10080</ttl>
+
+
+  <!-- To generate timestamps under pubdate : https://timestampgenerator.com/1742077903/+00:00 -->
+  <!-- These are called unix time stamps-->
+  <!-- quick rss refresher: https://caffeineandlasers.neocities.org/blogs/automatingYourRSS -->
+    <!-- Dont forget to remake the counter on ur website ever so often for semi accurate counting -->
+    <!-- https://blogtrottr.com/-->
+
+<!-- This app should update other services when rss feed is updated. -->
+    <!-- https://ifttt.com/activity/applet/BGnuFHxv-->
+   <!-- https://ifttt.com/activity/applet/BGnuFHxv-->
+
+<!--https://www.11ty.dev/docs/collections/ -->
+
+
+
+<!-- 11ty AUTOMATED PAGE UPDATES, THIS SHOULD BE CONTENT ONLY! -->
+  
+  <item>
+    <title>spongebob benadryl adventure</title>
+    <description>Ya boy bobby had a little too much benadryl, join him in his trip through hell!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/projects/project1.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Thu, 31 Jul 2025 17:00:00 -0700</pubDate>
+  </item>
+
+  
+  <item>
+    <title>kitty land the game</title>
+    <description>Oh yeah welcome to kitty town, come create the cat themed utopia of your dreams!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/projects/project2.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Thu, 31 Jul 2025 17:00:00 -0700</pubDate>
+  </item>
+
+  
+  <item>
+    <title>How to master alphabetical organization (silly)</title>
+    <description>
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost0.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Sun, 14 Dec 2025 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Personal auto hotkey script showcase 1</title>
+    <description>
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost1.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Tue, 16 Dec 2025 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Intro to rss</title>
+    <description>
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost2.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Thu, 18 Dec 2025 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Personal auto hotkey script showcase 2</title>
+    <description>Uhh don't you just love listening to someone geek out over some silly computer stuff? Me neither, but feel free to come learn how to supercharge your computer abilities with these handy ahk scripts.
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost3.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Fri, 19 Dec 2025 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Super duper doggy blaster the video game</title>
+    <description>They are coming. Waves upon waves of assorted creeps, cretins, imbeciles and perverts. MAN THE DEFENSE! PROTECT YOUR HOME! Equipped with state of the art weaponry, show those fools what is good.
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/projects/project3.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Tue, 06 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>New art!</title>
+    <description>Latest art that I've worked on! Got into water color a little bit, so thats new.
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/projects/project4.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Wed, 07 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Rimworld odessy run ship showcase</title>
+    <description>Come take a peek at the ship I made during my last rimworld run!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost4.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Fri, 09 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>post unavailable</title>
+    <description>post unavailable, sorry!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost5.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Sat, 10 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>New rimworld webring!</title>
+    <description>Like rimworld? Want to join a webring? Well buddy do I have some news for you!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/miscposts/misc2.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Fri, 16 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>rss feed tester</title>
+    <description>just testing if my rss feed works, i use this handy dandy tool called ifttt which auto posts on tumblr whenever i make a new page on this website, since my rss feed is automated via 11ty i set up ifttt to detect rss changes which report on every new page i make
+    </description>
+
+
+    <summary><![CDATA[ 
+<div class="parentboxcenter">
+<hr>
+  <h1> ayo </h1>
+<hr>
+</div>
+
+<div class="parentbox">
+
+
+
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/bruh.jpg" style="height:auto ; width: 500px;" > </img>
+
+</div>
+
+<div class="textcenter">
+  <p class="betterp">
+    just testing if my rss feed works, 
+    I use this handy dandy tool called ifttt
+    which auto posts on tumblr whenever I 
+    make a new page on this website. 
+
+    Since my rss feed is automated via 11ty, 
+    I set up ifttt to detect rss changes which
+    report on every new page I make. 
+
+    Give it a go <a href="https://ifttt.com/">here</a> !
+  </p>
+</div>
+ ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/miscposts/misc1.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/resources/images/bruh.jpg" type="image/jpeg" />
+    
+
+    <pubDate>Sun, 25 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>shitty digital detox guide</title>
+    <description>A little guide on how to detox from social media and reclaim some of your free time
+    </description>
+
+
+    <summary><![CDATA[ 
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Intro  </h1>
+<hr>
+</div>
+
+<div class="parentbox">
+
+
+
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/floride.jpg" style="height:auto ; width: 500px;" > </img>
+
+</div>
+
+<div class="textcenter">
+  <p class="betterp">
+    As much as I love a good shitpost, I like every other person on the 
+    face of the earth right now often find myself thinking that I spend 
+    too much time online. Big whoop. Here I will share some techniques 
+    that I've found that somewhat works at preventing me from 
+    spending literally all of my free time on the internet. 
+
+    I make no promises on this guides effectiveness, it works some days 
+    and it doesn't other days. I will also be updating this guide as 
+    I find better techniques. 
+
+
+
+  </p>
+</div>
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Delayed gratification method </h1>
+<hr>
+</div>
+
+<div class="parentbox">
+
+
+
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/cry.jpg" class="indicator3" > </img>
+
+</div>
+
+
+<br>
+
+<div class="parentbox" >
+
+
+
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/inpoint.png" class="fitcontentdiv" > </img>
+
+
+<div class="textcenter" style="padding-left: 30px;">
+  <p class="betterp">
+    Uaehh I freaking love tumblr, and actually think that the time 
+    I spend on it is sometimes well spent. The problem is when I 
+    take it too far and browse it for an hour or more. 
+
+    One of the main appeals I find comes from the absolutely 
+    unhinged and bizarre posts that I don't find anywhere else. 
+
+    Case in point to the left.
+
+    So, my compromise with myself is to not go cold 
+    turkey, but to set a tumblr time threshold. 
+    Only at 6:00pm I allow myself to go online for like 
+    20 minutes (yeah I set a timer), then, I get 
+    back to doing other stuff. 
+
+    That way, I still get a taste of online life, 
+    and also don't feel like some type of phone 
+    zombie. 
+
+
+
+  </p>
+</div>
+
+</div>
+
+
+<marquee behavior="scroll" direction="left" scrollamount="3" width="750px">
+
+        <img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/tf2.gif" class="indicatorp5"> </img>
+
+</marquee>
+
+<div class="parentbox" >
+
+
+    <div class="textcenter" style="padding-right: 30px;">
+  <p class="betterp">
+    I am also experimenting with 
+    moving more addicitive content (yt` shorts)
+    to all the way to right before I 
+    go to bed, with my timer set to 
+    ten minutes. My philiosophy is that 
+    since I am all doped out on melatonin, 
+    I get too drowsy for it to become 
+    a serious time sink, and I can easily turn it 
+    off when I need to. Also at that point 
+    I've already spent the whole day with 
+    a higher level of dicipline, so it becomes 
+    easier to shut things down.
+
+    Basically, whenever I feel a craving to 
+    go online, I can tell myself that I've 
+    got phone in bed time later, and can 
+    focus on other things. 
+
+
+
+  </p>
+</div>
+
+
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/eepy.jpg" class="fitcontentdiv" > </img>
+
+
+
+</div>
+
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Pavlov had a point maybe</h1>
+<hr>
+</div>
+
+<br>
+
+<div class="parentbox">
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/pav.jpg" class="fitcontentdiv" > </img>
+
+
+
+    <div  style="padding-left: 30px;">
+  <p class="betterp">
+    Another method I've deployed to stay productive, 
+    is to form a pavlovian association with 
+    dressing nice and being busy. Every time I 
+    get working on schoolwork, I put on my
+    </p>
+    <p style="font-family: fantasy;">
+      ✨ fancy trowsers✨</p> 
+    <p class="betterp">  
+    and a nice regular ass shirt (no metal tshirts).  
+    To be honest, I have no idea if this actually works, but 
+    you know what they say, if it aint broke don't 
+    fix it!
+        </p>  
+
+
+</div>
+
+</div>
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> HOLY MANGA STRAT</h1>
+<hr>
+</div>
+
+<br>
+
+
+
+<div class="parentbox">
+
+
+    <div class="textcenter" style="padding-right: 30px;">
+  <p class="betterp">
+      I tend to get a little nervious 
+      when I am sitting somewhere in public 
+      and need to pass the time in a room full 
+      of people. Now a social person would 
+      turn to their neighbor and strike up 
+      a conversation and make lifelong 
+      friends and ride off into the sunset with a 
+      billion dollars, but thats not how I roll baby. 
+
+      Instead, I found the way to not give in to the 
+      temptation of slushifying my mind with social media
+      right then and there is to just read manga on my phone. 
+
+      You can find just about any manga online for <a href="https://mangakatana.com/"> free</a>
+      so long as you pair it with a good mobile ad block. 
+
+      I usually use firefox with this <a href="https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/">extension</a>
+    </p>
+
+
+
+</div>
+
+
+<div class="parentbox">
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/veg.jpg" class="fitcontentdiv" style="height:200px;" > </img>
+</div>
+
+</div>
+
+
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> TIMERS!</h1>
+<hr>
+</div>
+
+
+<div class="parentboxcenter">
+<img src="https://kerchunkleknoughts.github.io/mainblog/resources/images/rabb.webp" class="indicator2" > </img>
+</div>
+
+
+
+<br>
+
+<div class="parentbox">
+
+
+
+
+    <div  style="padding-left: 30px;">
+  <p class="betterp">
+      Its been said and done before, but I like 
+      to set a timer for some amount of work 
+      before I start the day, and whenever I
+      get through an hour I pause the timer and 
+      take a break. Uhh the only problem with 
+      this system is sometimes I feel bad for 
+      not working for as long as the timer 
+      was set to. 
+    </p>
+  
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+    
+
+<br><br>
+
+
+
+<div class="parentboxcenter">
+<hr>
+  <h1> Conclusion?</h1>
+<hr>
+</div>
+
+
+
+
+
+<br>
+
+<div class="parentbox">
+
+
+
+
+    <div  style="padding-left: 30px;">
+  <p class="betterp">
+      Thats the end maybe? If I find anything else that helps, 
+      I'll update this guide again and post it. 
+
+      thanks for reading!
+    </p>
+  
+
+
+</div>
+
+</div>
+ ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost6.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/resources/images/floride.jpg" type="image/jpeg" />
+    
+
+    <pubDate>Tue, 27 Jan 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>medicine noose song cover</title>
+    <description>Guitar cover of medicine noose by eyehategod.
+    </description>
+
+
+    <summary><![CDATA[ 
+
+
+
+<div class="parentbox">
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/imwgvbuOkeU" title="medicine noose cover eyehategod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+
+
+
+
+<div class="textcenter">
+  <p>
+uhh pretty easy one here, but this song is great <br>
+so I wanted to learn it. Didn't take too long. <br>
+Also think the button method for this page <br>
+sucks so I am now just uploading the <br>
+songs to the tube and embedding them. <br>
+Yippie! <br>
+
+
+    my other music found <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/music.html">here</a> !
+  </p>
+</div>
+
+
+<br><br>
+ ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/projects/project5.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/" type="image/jpeg" />
+    
+
+    <pubDate>Mon, 16 Feb 2026 16:00:00 -0800</pubDate>
+  </item>
+
+  
+  <item>
+    <title>Post unavailable</title>
+    <description>post unavailable, sorry!
+    </description>
+
+
+    <summary><![CDATA[  ]]> </summary>
+
+    <link>https://kerchunkleknoughts.github.io/mainblog/blogposts/bpost7.html</link>
+    
+
+    <enclosure url="https://kerchunkleknoughts.github.io/mainblog/https://kerchunkleknoughts.github.io/mainblog/resources/images/idea.jpg" type="image/jpeg" />
+    
+
+    <pubDate>Wed, 11 Mar 2026 17:00:00 -0700</pubDate>
+  </item>
+
+  
+
+
+
+
+</channel>
+</rss>

@@ -1,0 +1,190 @@
+
+
+
+
+
+
+  
+
+ 
+<video autoplay muted loop id="myVideo">
+    <source src="./resources/video/again2.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+
+
+
+
+<footer>
+
+    <br><br>
+    <div class="parentboxcenter">
+
+
+
+    <a href="feed.xml" class="childtextboxpadded">
+        <img src="resources/images/RSS_Logo.png" alt="RSS Feed" style="width: 20px; height: 20px"> 
+    </a>
+
+
+
+    <a href="#top" class="childtextboxpadded">Back to top</a>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://iframe.chat/scripts/main.min.js"></script>
+
+
+<link rel="stylesheet" href="https://ultrakill.nekoweb.org/onionring.css">
+
+<script src="./resources/progresources/js/script.js"></script>  
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+   
+
+
+
+
+ 
+
+
+
+    document.body.addEventListener("click", playAudio);
+
+    document.body.addEventListener("mouseover", playAudio);
+
+
+
+
+
+    function playAudio() {
+       
+
+       
+
+
+
+
+        // Remove event listeners after first interaction to prevent multiple triggers
+      
+       
+
+        
+        
+        if(!(document.getElementById("bgm")==null)){
+
+        document.body.click();
+        console.log("MOUSED!");
+        let audio = document.getElementById("bgm");
+
+
+              
+        audio.muted=false;
+
+        console.log("Is autoplay muted?")
+        console.log(audio.muted)
+        audio.play();
+
+        //audio.play().catch(error => console.log("Autoplay blocked:", error));
+        
+
+
+
+        
+        if (audio.paused == false) {
+          
+          document.body.removeEventListener('mouseover', playAudio);
+          console.log("listener removed.")
+
+
+        }
+
+
+
+
+      
+         
+        }
+
+
+
+
+    }
+
+
+
+
+
+ document.addEventListener("DOMContentLoaded", function() {
+
+        
+    randodreamaudio()
+
+     setTimeout(() => {
+            
+          playAudio()
+          let audio = document.getElementById("bgm");
+          audio.play();
+
+        }, 1500); // Delay autoplay
+
+
+
+    });
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+   
+
+</div>
+
+    </footer>
+
+
+
+    
+
+
+    
