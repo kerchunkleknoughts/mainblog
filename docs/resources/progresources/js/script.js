@@ -378,6 +378,71 @@ document.getElementById('bgm').volume = 0.5;
 
 
 
+function randovid(){
+
+  var correctform=document.getElementById("clippy");
+  
+  let fucky=document.createElement('div');
+  fucky.innerHTML=
+  `
+<video autoplay muted loop id="clippy">
+    <source src="./resources/clips/lifehack meal.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+`
+;
+
+
+
+
+let fucky1=document.createElement('div');
+fucky1.innerHTML=
+
+`
+  <video autoplay muted loop id="clippy">
+    <source src="./resources/clips/pickle.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+`
+;
+
+
+let fucky2=document.createElement('div');
+fucky2.innerHTML=
+
+`
+  <video autoplay muted loop id="clippy">
+    <source src="./resources/clips/fishy.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>`
+;
+
+
+
+var rando=Math.floor(Math.random() * 15);
+console.log(rando);
+
+
+
+  if(rando>10){
+    correctform.replaceWith(fucky2);
+    }
+    if(rando>5){
+      correctform.replaceWith(fucky1);
+      }
+      if(rando>=0){
+        correctform.replaceWith(fucky);
+        }
+      
+  
+  
+      
+  
+
+}
+
+
+
 
 
 

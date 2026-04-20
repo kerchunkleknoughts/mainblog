@@ -1736,27 +1736,49 @@ padding-left: 20px;
 }
 
 
-       #clippy {
- 
-  
-  width: 300px;
-  height: 300px;
 
-  
-  position: absolute;
-  
-   left: 125px;
-   top :-60px;
-    
+
+
+
+
+
+       #clippy {
+
+        width: 300px;
+       height: 300px;
  
+       max-width: 300px;
+       max-height: 300px;
+       
+       
+
+   grid-area: 2 / 2 / 2 / 2;
+   z-index: 9;
+ 
+}
+
+
+ #clippy2 {
+
+        width: 300px;
+       height: 300px;
+ 
+       max-width: 300px;
+       max-height: 300px;
+       
+       
+
+   grid-area: 2 / 2 / 2 / 2;
+ 
+   
+
+   z-index:10; border-style:solid; border-width: 1px ;
 }
 
 
 
 .pissboxcenter{
-  display: flex;
-  
-  position: relative;
+  display:grid;
 
   justify-content: center;
   
@@ -1764,3 +1786,30 @@ padding-left: 20px;
   
   
   }
+
+
+
+
+
+
+
+  
+
+  
+ #clippy3 {
+
+        width: 300px;
+       height: 300px;
+ 
+       max-width: 300px;
+       max-height: 300px;
+       
+       
+
+   grid-area: 2 / 2 / 2 / 2;
+ 
+   
+
+   z-index:8; border-style:solid; border-width: 1px ;
+}
+

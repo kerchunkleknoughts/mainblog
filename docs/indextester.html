@@ -793,6 +793,8 @@ continues.
 
 
 
+
+<br>
 <div class="pissboxcenter" >
 
     
@@ -800,13 +802,17 @@ continues.
  
 
    
-<video autoplay muted loop id="clippy">
-    <source src="./resources/clips/wizard_clip_1.mp4" type="video/mp4">
+
+<video autoplay muted id="clippy">
+    <source src="./resources/clips/pog champ.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
 
-   <img src="./resources/images/stickly.png" class="indicator3" style="height:180px; z-index:10; border-style:solid; border-width: 1px ;">
+  <img src="./resources/images/black.png" id="clippy3" >
+
+   <img src="./resources/images/stickly.png" id="clippy2" >
+   
    
   
 </div>
@@ -862,7 +868,50 @@ continues.
 
 
 
+<script type='text/javascript'>
+    document.getElementById('clippy').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+        // What you want to do after the event
+        console.log("IOH FUCCKK vid finished")
 
+var video = document.getElementById("clippy");
+
+var rando = Math.floor(Math.random() * 13); // 13 clips total (0–12)
+
+if (rando === 0) {
+  video.src = "./resources/clips/clip2.mp4";
+} else if (rando === 1) {
+  video.src = "./resources/clips/fazbear.mp4";
+} else if (rando === 2) {
+  video.src = "./resources/clips/fishy.mp4";
+} else if (rando === 3) {
+  video.src = "./resources/clips/HAVE YOU SEEN THIS MAN_ _ Ironic Dank Meme.mp4";
+} else if (rando === 4) {
+  video.src = "./resources/clips/pickle.mp4";
+} else if (rando === 5) {
+  video.src = "./resources/clips/speed.mp4";
+} else if (rando === 6) {
+  video.src = "./resources/clips/lifehack meal.mp4";
+} else if (rando === 7) {
+  video.src = "./resources/clips/pickle.mp4";
+} else if (rando === 8) {
+  video.src = "./resources/clips/pog champ.mp4";
+} else if (rando === 9) {
+  video.src = "./resources/clips/this is no laughing matter.mp4";
+} else if (rando === 10) {
+  video.src = "./resources/clips/ultimate card door life hacks.mp4";
+} else if (rando === 11) {
+  video.src = "./resources/clips/wizard_clip_1.mp4";
+} else {
+  video.src = "./resources/clips/slay.mp4";
+}
+
+// restart video properly
+video.load();
+video.currentTime = 0;
+video.play();
+}
+</script>
 
 
 
