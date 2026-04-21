@@ -362,52 +362,86 @@ href="https://thegreenroom.neocities.org/webrings/tvtimewebring/onionring.css"/>
 
 
 <script type='text/javascript'>
-    document.getElementById('clippy').addEventListener('ended',myHandler,false);
-    function myHandler(e) {
-        // What you want to do after the event
-        console.log("IOH FUCCKK vid finished")
+document.getElementById('clippy').addEventListener('ended', myHandler, false);
 
-var video = document.getElementById("clippy");
+function myHandler(e) {
+    console.log("IOH FUCCKK vid finished");
 
-var rando = Math.floor(Math.random() * 13); // 13 clips total (0–12)
+    var video = document.getElementById("clippy");
 
-if (rando === 0) {
-  video.src = "./resources/clips/clip2.mp4";
-} else if (rando === 1) {
-  video.src = "./resources/clips/fazbear.mp4";
-} else if (rando === 2) {
-  video.src = "./resources/clips/fishy.mp4";
-} else if (rando === 3) {
-  video.src = "./resources/clips/HAVE YOU SEEN THIS MAN_ _ Ironic Dank Meme.mp4";
-} else if (rando === 4) {
-  video.src = "./resources/clips/pickle.mp4";
-} else if (rando === 5) {
-  video.src = "./resources/clips/wizard_clip_1.mp4";
-} else if (rando === 6) {
-  video.src = "./resources/clips/lifehack meal.mp4";
-} else if (rando === 7) {
-  video.src = "./resources/clips/pickle.mp4";
-} else if (rando === 8) {
-  video.src = "./resources/clips/pog champ.mp4";
-} else if (rando === 9) {
-  video.src = "./resources/clips/this is no laughing matter.mp4";
-} else if (rando === 10) {
-  video.src = "./resources/clips/ultimate card door life hacks.mp4";
-} else if (rando === 11) {
-  video.src = "./resources/clips/wizard_clip_1.mp4";
-} else {
-  video.src = "./resources/clips/slay.mp4";
-}
+    var rando = Math.floor(Math.random() * 32); // 32 clips (0–31)
 
-// restart video properly
-video.load();
-video.currentTime = 0;
-video.play();
+    if (rando === 0) {
+      video.src = "./resources/clips/2am at Denny's.mp4";
+    } else if (rando === 1) {
+      video.src = "./resources/clips/average planet fitness workout.mp4";
+    } else if (rando === 2) {
+      video.src = "./resources/clips/fazbear.mp4";
+    } else if (rando === 3) {
+      video.src = "./resources/clips/fishy.mp4";
+    } else if (rando === 4) {
+      video.src = "./resources/clips/Getting High with Garfield.mp4";
+    } else if (rando === 5) {
+      video.src = "./resources/clips/goeshard.mp4";
+    } else if (rando === 6) {
+      video.src = "./resources/clips/guy grabs burger and screams meme  #shorts.mp4";
+    } else if (rando === 7) {
+      video.src = "./resources/clips/HAVE YOU SEEN THIS MAN_ _ Ironic Dank Meme.mp4";
+    } else if (rando === 8) {
+      video.src = "./resources/clips/How it feels to be unemployed.mp4";
+    } else if (rando === 9) {
+      video.src = "./resources/clips/its hot.mp4";
+    } else if (rando === 10) {
+      video.src = "./resources/clips/kitty.mp4";
+    } else if (rando === 11) {
+      video.src = "./resources/clips/lifehack meal.mp4";
+    } else if (rando === 12) {
+      video.src = "./resources/clips/L✰SSE.mp4";
+    } else if (rando === 13) {
+      video.src = "./resources/clips/mac and cheese party.mp4";
+    } else if (rando === 14) {
+      video.src = "./resources/clips/Momentary loss of composure..mp4";
+    } else if (rando === 15) {
+      video.src = "./resources/clips/Mustard sleeping man prank.mp4";
+    } else if (rando === 16) {
+      video.src = "./resources/clips/pickle.mp4";
+    } else if (rando === 17) {
+      video.src = "./resources/clips/pog champ.mp4";
+    } else if (rando === 18) {
+      video.src = "./resources/clips/pranked.mp4";
+    } else if (rando === 19) {
+      video.src = "./resources/clips/Singing fish car.mp4";
+    } else if (rando === 20) {
+      video.src = "./resources/clips/slay.mp4";
+    } else if (rando === 21) {
+      video.src = "./resources/clips/Speed back flip in front of his girlfriend but accidentally hit the desk 😭🤣.mp4";
+    } else if (rando === 22) {
+      video.src = "./resources/clips/speed.mp4";
+    } else if (rando === 23) {
+      video.src = "./resources/clips/swimming.mp4";
+    } else if (rando === 24) {
+      video.src = "./resources/clips/this is no laughing matter.mp4";
+    } else if (rando === 25) {
+      video.src = "./resources/clips/truck.mp4";
+    } else if (rando === 26) {
+      video.src = "./resources/clips/tumblr_so9gkwgghF1ac5m7s.mp4";
+    } else if (rando === 27) {
+      video.src = "./resources/clips/tumblr_svf8f9ruvQ1r85rfb.mp4";
+    } else if (rando === 28) {
+      video.src = "./resources/clips/ultimate card door life hacks.mp4";
+    } else if (rando === 29) {
+      video.src = "./resources/clips/wax.mp4";
+    } else if (rando === 30) {
+      video.src = "./resources/clips/what is it.mp4";
+    } else {
+      video.src = "./resources/clips/Zeldroid_ Eternal Witness.mp4";
+    }
+
+    video.load();
+    video.currentTime = 0;
+    video.play();
 }
 </script>
-
-
-
 
 
 
