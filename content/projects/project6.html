@@ -139,17 +139,7 @@ image: "resources/art/drawings/new_art_6-6-2026/20260606_150122.jpg"
 
 
 
-     
-<div class="bparentbox">
 
-    
-  
-        <div>
-            <img src="./resources/photos/coldcurly.jpg" class="photolay" id="reptarget" onclick="off('reptarget')"></img>
-             </div>
-
-
-</div>
 
 
 
@@ -205,7 +195,7 @@ image: "resources/art/drawings/new_art_6-6-2026/20260606_150122.jpg"
     <div class="bchildtextbox" style="height:auto" id="1">
 
         {% assign indi = indi | plus: 1 %}
-        <a href="large-photo.jpg" target="{{ post.path }}">
+      <a href="{{ post.path }}" target="new">
             <img src="{{ post.path }}" class="indicator3gal"></img>
         </a>
 
@@ -256,9 +246,9 @@ image: "resources/art/drawings/new_art_6-6-2026/20260606_150122.jpg"
  <div class="bchildtextbox"  id="1">
 
         {% assign indi = indi | plus: 1 %}
-        <div>
-            <img src="{{ post.path }}" class="indicator3gal" onclick="repphotocontent1({{indi}})"></img>
-        </div>
+        <a href="{{ post.path }}" target="new">
+            <img src="{{ post.path }}" class="indicator3gal"></img>
+        </a>
 
         <div>
             
@@ -291,9 +281,9 @@ image: "resources/art/drawings/new_art_6-6-2026/20260606_150122.jpg"
      <div class="bchildtextbox" id="1">
 
         {% assign indi = indi | plus: 1 %}
-        <div>
-            <img src="{{ post.path }}" class="indicator3gal" onclick="repphotocontent1({{indi}})"></img>
-        </div>
+       <a href="{{ post.path }}" target="new">
+            <img src="{{ post.path }}" class="indicator3gal"></img>
+        </a>
 
        
 
