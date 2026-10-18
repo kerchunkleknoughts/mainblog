@@ -389,96 +389,32 @@ continues.
 
  
 
-<br><br>
-<hr>
 
 
 
 
-
-
-
-  <div>
-
-    <h2 class="lefttext">featured:</h2>
-    
-    {% for post in collections.ffeatured reversed %}
-    <h3 class="centertext"> 
-      {{ post.data.title }}
-    </h3>
-    {% endfor %}
-
-</div>
-
-  {% for post in collections.ffeatured reversed %}
-
-
-
-
-<div class="betterparentboxcenter">
-
- 
-
-
-    <div>
-        
-        <img src="{{ post.data.image }}" class="indicator5"> </img>
-
-      </div>
-
-      </div>
-
-   
-
-      <div class="betterparentboxcenter">
-<div class="betterpf">
-  {{ post.data.description }}
-</div>
-    
-
-
-</div>
-
- 
-<div class="betterparentboxcenter">
-
-  <div class="betterp"> 
-    see the rest of this post <a href=" .{{ post.url }}">here</a>
-  </div>
-
-</div>
-
-
-
-  {% endfor %}
+  
 
 
 
 
 
   
-<hr style="border-top: dashed 2px;" />
 
 
 
 
-  <div>
+  {% for post in collections.fpage reversed %}
 
-    
-    {% for post in collections.fprojects reversed %}
-    <h3 class="centertext"> 
-      {{ post.data.title }}
+  <h3 class="centertext"> 
+      
+   <hr>
+   {{ post.data.title }}
+   
+   
+   
+   
     </h3>
-    {% endfor %}
-
-</div>
-
-
-
-
-  {% for post in collections.fprojects reversed %}
-
-
 
 
 <div class="betterparentboxcenter">
@@ -529,68 +465,6 @@ continues.
 
 
 
-
-
-
-<br><br>
-<hr style="border-top: dotted 10px;" />
-
-
-
-  <div>
-  
-    {% for post in collections.fbposts reversed %}
-    <h3 class="centertext"> 
-      {{ post.data.title }}
-    </h3>
-    {% endfor %}
-
-</div>
-
-
-
-
-
-  {% for post in collections.fbposts reversed %}
-
-
-
-
-<div class="betterparentboxcenter">
-
- 
-
-
-    <div>
-        
-        <img src="{{ post.data.image }}" class="indicator2"> </img>
-
-      </div>
-
-      </div>
-
-   
-
-      <div class="betterparentboxcenter">
-<div class="betterpf">
-  {{ post.data.description }}
-</div>
-    
-
-
-</div>
-
- 
-<div class="betterparentboxcenter">
-
-  <div class="betterp"> 
-    see the rest of this post <a href=" .{{ post.url }}">here</a>
-  </div>
-
-</div>
-
-
-  {% endfor %}
 
 
 
@@ -615,6 +489,7 @@ I freaking forgot my statuscafe password and I can't update it now fuck fuck
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4lOfDyk0fY1U7F2oaRiSUi?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
+<br><br>
 
 <div class="parentboxcenter">
   <form>

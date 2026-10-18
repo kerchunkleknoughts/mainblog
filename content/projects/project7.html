@@ -1,0 +1,383 @@
+---
+title: Sketch book dump 10-18-2026 
+date: 2026-06-06
+description: well I've finished my sketchbook. Yuhhhhh. Psuedo blog update also included.   
+tags: 
+- projects
+- posts
+- featured
+- fprojects
+- fpage
+
+    
+
+
+image: "resources/art/drawings/new drawings 10-18-2026/20261018_105406.jpg"
+
+
+
+
+---
+ {% assign library = "projects.html" %}
+
+
+
+
+
+
+      
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    
+
+
+    <meta content="0; url=project1.html">
+
+   
+{% include "partials/defstyle.njk" %}
+
+<link rel="stylesheet" href="../resources/progresources/globalcss.css">
+
+
+
+</head>
+
+
+
+
+  
+
+<body>
+
+
+ 
+
+
+
+
+
+
+
+
+    <div class="maindiv">
+    
+
+ {% include "partials/contentheader.njk" %}
+       
+        
+
+
+
+
+<br><br>
+
+
+
+
+
+
+    {% assign indi = -1 %}
+   
+    {% assign brcnt = 0 %}
+
+    {% assign midcond = 1 %}
+
+    {% assign swapper = 1 %}
+
+    {% assign swappee = 3 %}
+
+
+
+    
+
+  <audio id="bgm" loop>
+    <source src="./resources/audio/Balatro Theme 4.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+
+
+
+
+
+<br><br>
+<div class="bparentbox">
+
+ 
+
+  <div class="bchildtextbox"  >
+             
+            
+                                            
+                                                  
+                                            
+                                            
+    <div class="textcenter">
+       <p class="betterp">
+      
+
+        Its been awhile since I've updated this website. 
+        I've finally moved out of out colorado and settled in arizona. 
+        
+        Since my programming job is keeping me pretty busy at the 
+        moment, updates will likely be infrequent in the future. 
+        I should still be available through email however. 
+
+        The desert fucking sucks I hate it here. 
+        Despite that at least I've now got a friend
+        group. We get together and play mtg twice a week which 
+        is great. I'll probably post some of the custom proxies that 
+        I made in the future. Anyway, heres my art: 
+
+
+
+        <b>ART VIEWER INSTRUCTIONS:</b>
+
+        Clicking on any picture will open it up in a new tab.
+
+        From the new tab, the image can be zoomed on w ctrl +/-, or ctrl + mousewheel
+        Also, holding shift and using the mouse wheel allows horizontal 
+        movement of the viewer. Ctrl + w closes the new tab. 
+
+        fuck my fucking chud life. 
+
+        My full art directory can be found 
+        here:  <a href="https://kerchunkleknoughts.github.io/dogwithablog.gov/drawings.html">art</a>
+      </p>
+        </div>
+       
+       
+       
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% for post in artpaths_3 %}
+{% assign brcnt = brcnt | plus: 1 %}
+{% assign midcond = 1 %}
+
+
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+{%- if brcnt == 1 -%}
+{% assign midcond = 0 %}
+
+<div class="bparentbox">
+
+
+
+
+
+    <div class="bchildtextbox" style="height:auto" id="1">
+
+        {% assign indi = indi | plus: 1 %}
+      <a href="{{ post.path }}" target="new">
+            <img src="{{ post.path }}" class="indicator3gal"></img>
+        </a>
+
+    </div>
+
+{%- endif -%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{%- if brcnt == swappee -%}
+{% assign brcnt = 0 %}
+{% assign midcond = 0 %}
+
+
+
+
+
+{% assign swapper = swapper | times: -1 %}
+
+
+{%- if swapper == 1 -%}
+{% assign swappee = 3 %}
+
+
+
+{%- else -%}
+{% assign swappee = 2 %}
+
+
+{%- endif -%}
+
+
+
+
+<!-- this is end condition -->
+
+ <div class="bchildtextbox"  id="1">
+
+        {% assign indi = indi | plus: 1 %}
+        <a href="{{ post.path }}" target="new">
+            <img src="{{ post.path }}" class="indicator3gal"></img>
+        </a>
+
+        <div>
+            
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+    </div>
+
+
+  
+    {%- endif -%}
+
+
+
+
+
+
+
+{%- if midcond == 1 -%}
+
+    <!-- this is cont condition -->
+
+     <div class="bchildtextbox" id="1">
+
+        {% assign indi = indi | plus: 1 %}
+       <a href="{{ post.path }}" target="new">
+            <img src="{{ post.path }}" class="indicator3gal"></img>
+        </a>
+
+       
+
+    </div>
+
+  {%- endif -%}
+
+
+
+
+
+
+
+
+{% endfor %}
+        
+
+            
+
+
+
+
+
+
+
+
+
+
+
+   
+            <script>
+
+              // THIS SECTION IS JUST FOR THE ON CLICK MAGNIFIER THING, you neeed
+              // to put the other paths in the artpaths.json file in the data section.
+
+
+
+            </script>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+{% assign index = 5 %}
+
+<br><br><br><br><br><br><br><br><br>
+
+
+
+</div>
+{% include "partials/contentfooter.njk" %}
+
+
+
+
+ 
+ {% assign goption = 2 %}
+
+
+ {% include "partials/contentscripts.njk" %}
+
+
+ 
+
+
+
+</body>
+</html>
